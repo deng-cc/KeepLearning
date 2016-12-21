@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="BookStore:war exploded">
+    <output-path>$PROJECT_DIR$/target/bookStore</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="BookStore/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BookStore" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.8" />
+          <element id="library" level="project" name="Maven: cn.easyproject:ojdbc6:11.2.0.4" />
+          <element id="library" level="project" name="Maven: org.smartupload:smartupload:1.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
