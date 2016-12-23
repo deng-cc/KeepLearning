@@ -24,7 +24,7 @@
  7. **返回控制权给DispatcherServlet**：由DispatcherServlet返回响应给用户，到此一个流程结束（此处流程只描述了核心，未考虑拦截器等）。
 
 
-`***所以具体的核心开发步骤为***`
+<font color=#FF0000 size=4>**所以具体的核心开发步骤为**</font>
 1、DispatcherServlet在web.xml中的部署描述；
 2、HandlerMappng的配置；
 e.g.
