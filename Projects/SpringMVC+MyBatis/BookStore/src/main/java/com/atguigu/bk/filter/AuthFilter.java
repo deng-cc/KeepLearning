@@ -16,13 +16,13 @@ import com.atguigu.bk.enums.RoleEnum;
 public class AuthFilter implements Filter{
 
 	public void destroy() {
-		// TODO Auto-generated method stub
+
 		
 	}
 
 	public void doFilter(ServletRequest request, ServletResponse response,
 			FilterChain chain) throws IOException, ServletException {
-		// TODO Auto-generated method stub
+
 		if(request instanceof HttpServletRequest){
 			HttpServletRequest req = (HttpServletRequest)request;			
 			Object object = req.getSession().getAttribute("user");
@@ -31,11 +31,11 @@ public class AuthFilter implements Filter{
 				if(user.getRole() == RoleEnum.ADMIN){
 					chain.doFilter(request, response);					
 				}else{
-					request.setAttribute("msg","·ÃÎÊÒ³ÃæµÄÈ¨ÏÞÊÜÏÞ£¬ÇëÏÈµÇÂ¼");
+					request.setAttribute("msg","ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½ï¿½È¨ï¿½ï¿½ï¿½ï¿½ï¿½Þ£ï¿½ï¿½ï¿½ï¿½Èµï¿½Â¼");
 					req.getRequestDispatcher("/main/login.jsp").forward(request, response);
 				}				
 			}else{
-				request.setAttribute("msg","·ÃÎÊÒ³ÃæµÄÈ¨ÏÞÊÜÏÞ£¬ÇëÏÈµÇÂ¼");
+				request.setAttribute("msg","ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½ï¿½È¨ï¿½ï¿½ï¿½ï¿½ï¿½Þ£ï¿½ï¿½ï¿½ï¿½Èµï¿½Â¼");
 				req.getRequestDispatcher("/main/login.jsp").forward(request, response);
 			}
 		}	
@@ -43,7 +43,7 @@ public class AuthFilter implements Filter{
 	}
 
 	public void init(FilterConfig arg0) throws ServletException {
-		// TODO Auto-generated method stub
+
 		
 	}
 

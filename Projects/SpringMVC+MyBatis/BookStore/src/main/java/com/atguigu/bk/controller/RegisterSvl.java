@@ -33,16 +33,16 @@ public class RegisterSvl extends HttpServlet {
 		try {
 			Thread.sleep(4000);	
 		} catch (Exception e) {
-			// TODO: handle exception
+
 		}
 		
 
 		String uname = request.getParameter("uname");
 		if(uname != null && !uname.trim().equals("")){
 			if(uname.equals("admin") || uname.equals("tom")){
-				reponsetext = "该用户名已经存在，请重新输入";
+				reponsetext = "锟斤拷锟矫伙拷锟斤拷锟窖撅拷锟斤拷锟节ｏ拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷";
 			}else{
-				reponsetext = "你输入的用户名可以使用";
+				reponsetext = "锟斤拷锟斤拷锟斤拷锟斤拷没锟斤拷锟斤拷锟斤拷使锟斤拷";
 			}
 		}else{
 			reponsetext = "";
@@ -53,7 +53,7 @@ public class RegisterSvl extends HttpServlet {
 		out.println(reponsetext);
 		out.flush();
 		out.close();		
-		//不能使用 request.getRequestDispatcher(arg0)
+		//锟斤拷锟斤拷使锟斤拷 request.getRequestDispatcher(arg0)
 	}
 
 	/**

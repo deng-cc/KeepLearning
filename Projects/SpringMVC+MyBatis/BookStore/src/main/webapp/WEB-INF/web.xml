@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
   <display-name>BookStore</display-name>
-      
-  <filter>
+
+    <filter>
         <filter-name>LogFilter</filter-name>
-        <filter-class>com.atguigu.bk.filter.LogFilter</filter-class>       
-   </filter>   
-   <filter-mapping>
+        <filter-class>com.atguigu.bk.filter.LogFilter</filter-class>
+    </filter>
+    <filter-mapping>
         <filter-name>LogFilter</filter-name>
         <url-pattern>/*</url-pattern>
-    </filter-mapping>  
+    </filter-mapping>
+
     
   <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
@@ -156,6 +157,24 @@
     <servlet-name>RegisterSvl</servlet-name>
     <url-pattern>/RegisterSvl</url-pattern>
   </servlet-mapping>
+
+    <!-- springMVC的前端控制DispatcherServlet -->
+    <servlet>
+        <servlet-name>CoreDispatcherServlet</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/spring-mvc.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+        <!--hint: Tomcat启动后实例化DispatcherServlet，然后传入参数到contextConfigLocation-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CoreDispatcherServlet</servlet-name>
+        <url-pattern>*.do</url-pattern>
+        <!--hint: .do后缀结尾的请求会到DispatcherServlet-->
+    </servlet-mapping>
+    
   <welcome-file-list>
     <welcome-file>MainSvl</welcome-file>   
   </welcome-file-list>
