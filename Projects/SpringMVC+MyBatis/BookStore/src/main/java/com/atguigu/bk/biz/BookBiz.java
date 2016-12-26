@@ -28,7 +28,7 @@ public class BookBiz {
 	
 	
 	/**
-	 * жВрЁотй╬ё╛кЫспм╪йИпео╒
+	 * О©╫О©╫рЁО©╫О©╫й╬О©╫О©╫О©╫О©╫О©╫О©╫м╪О©╫О©╫О©╫О©╫о╒
 	 * @return
 	 * @throws Exception
 	 */
@@ -48,14 +48,13 @@ public class BookBiz {
 	}
 	
 	/**
-	 * ╦Ы╬щж╦╤╗╣дisbnё╛лАх║╤тс╕╣дм╪ф╛
+	 * О©╫О©╫О©╫ж╦О©╫О©╫О©╫О©╫isbnО©╫О©╫О©╫О©╫х║О©╫О©╫с╕О©╫О©╫м╪ф╛
 	 * @param isbn
 	 * @return
 	 * @throws Exception
 	 */
 	public byte[] getBookPic(String isbn) throws Exception{
 		byte[] pic = null;
-		
 		BookDao dao = new BookDao();
 		try {
 			pic = dao.getBookPic(isbn);			
@@ -70,7 +69,7 @@ public class BookBiz {
 	}
 	
 	/**
-	 * ╦Ы╬щйИ╨елАх║йИ╣доЙо╦пео╒(╡╩╨╛м╪ф╛пео╒)
+	 * О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫х║О©╫О©╫О©╫О©╫О©╫о╦О©╫О©╫о╒(О©╫О©╫О©╫О©╫м╪ф╛О©╫О©╫о╒)
 	 * @return
 	 * @throws Exception
 	 */
@@ -91,7 +90,7 @@ public class BookBiz {
 	}
 	
 	/**
-	 * ╦Ы╬щйИ╣джВ╪Эпео╒ё╛лАх║кЫспм╪йИпео╒
+	 * О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫о╒О©╫О©╫О©╫О©╫х║О©╫О©╫О©╫О©╫м╪О©╫О©╫О©╫О©╫о╒
 	 * @param isbns
 	 * @return
 	 * @throws Exception

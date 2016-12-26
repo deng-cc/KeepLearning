@@ -2,7 +2,6 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
   <display-name>BookStore</display-name>
 
-    <!-- todo java.lang.NoClassDefFoundError 未解决
     <filter>
         <filter-name>LogFilter</filter-name>
         <filter-class>com.atguigu.bk.filter.LogFilter</filter-class>
@@ -11,7 +10,7 @@
         <filter-name>LogFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
-    -->
+
     
   <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
@@ -173,6 +172,7 @@
     <servlet-mapping>
         <servlet-name>CoreDispatcherServlet</servlet-name>
         <url-pattern>*.do</url-pattern>
+        <!--hint: .do后缀结尾的请求会到DispatcherServlet-->
     </servlet-mapping>
     
   <welcome-file-list>

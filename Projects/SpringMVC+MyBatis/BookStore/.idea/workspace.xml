@@ -4,16 +4,21 @@
     <list default="true" id="a9ef3326-92ec-4030-8ed3-8dbd95861bed" name="Default" comment="" />
     <ignored path="BookStore.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482465926909" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482304438341" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482296481079" ignored="false" />
+    <file path="/pom.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482727281965" ignored="false" />
     <file path="/db.properties" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482297403703" ignored="false" />
-    <file path="/a.dummy" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482298032658" ignored="false" />
-    <file path="/fragment.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482467715686" ignored="false" />
+    <file path="/a.dummy" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482730549019" ignored="false" />
+    <file path="/fragment.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482727790270" ignored="false" />
     <file path="/web.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482473074297" ignored="false" />
-    <file path="/BookAction.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482474553193" ignored="false" />
+    <file path="/BookAction.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482731818479" ignored="false" />
     <file path="/spring-mvc.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482472772973" ignored="false" />
-    <file path="/index.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482464665813" ignored="false" />
+    <file path="/index.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482683049491" ignored="false" />
+    <file path="/main.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482731007596" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/atguigu/bk/entity/TUser.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482678307458" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/atguigu/bk/enums/RoleEnum.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482678307458" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/com/atguigu/bk/biz/UserBiz.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482678307458" ignored="false" />
+    <file path="/BookDao.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482731503415" ignored="false" />
+    <file path="/TestBookDao.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482734160287" ignored="false" />
+    <file path="/mhead.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482727384708" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +36,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/LoginSvl.java" line="50" class="com.atguigu.bk.controller.LoginSvl" package="com.atguigu.bk.controller">
         <option name="ENABLED" value="true" />
@@ -62,21 +68,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/util/DbInfo.java" line="13" class="com.atguigu.bk.util.DbInfo" package="com.atguigu.bk.util">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/dao/UserDao.java" line="136" class="com.atguigu.bk.dao.UserDao" package="com.atguigu.bk.dao">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -92,7 +83,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/util/DbInfo.java" line="8" class="com.atguigu.bk.util.DbInfo" package="com.atguigu.bk.util">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/dao/BookDao.java" line="48" class="com.atguigu.bk.dao.BookDao" package="com.atguigu.bk.dao">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -107,7 +98,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/MainSvl.java" line="37" class="com.atguigu.bk.controller.MainSvl" package="com.atguigu.bk.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/dao/BookDao.java" line="79" class="com.atguigu.bk.dao.BookDao" package="com.atguigu.bk.dao">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -122,37 +113,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/webapp/index.jsp" line="4" class="index.jsp" package="D:\programmer\workspace4IDEA\KeepLearning\Projects\SpringMVC+MyBatis\BookStore\src\main\webapp">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/filter/LogFilter.java" line="37" class="com.atguigu.bk.filter.LogFilter" package="com.atguigu.bk.filter">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookAction.java" line="21" class="com.atguigu.bk.controller.BookAction" package="com.atguigu.bk.controller">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/dao/BookDao.java" line="76" class="com.atguigu.bk.dao.BookDao" package="com.atguigu.bk.dao">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -204,7 +165,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -217,34 +177,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="49" selection-start="539" selection-end="539" vertical-scroll-proportion="-9.333333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="31" selection-start="6356" selection-end="6356" vertical-scroll-proportion="-6.266667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-mvc.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+            <state line="16" column="49" selection-start="633" selection-end="633" vertical-scroll-proportion="-10.666667">
               <folding />
             </state>
           </provider>
@@ -253,7 +186,25 @@
       <file leaf-file-name="BookAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="65" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+            <state line="54" column="32" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="4" selection-start="460" selection-end="460" vertical-scroll-proportion="-7.740741">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBookDao.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/atguigu/bk/dao/TestBookDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="5" selection-start="338" selection-end="338" vertical-scroll-proportion="0.48">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,31 +212,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterSvl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/RegisterSvl.java">
+      <file leaf-file-name="PreparedStatement.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../../dev/jdk1.6.0_38/src.zip!/java/sql/PreparedStatement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+            <state line="1060" column="67" selection-start="54637" selection-end="54701" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthFilter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/filter/AuthFilter.java">
+      <file leaf-file-name="BookBiz.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/biz/BookBiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0">
+            <state line="56" column="26" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogFilter.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/filter/LogFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.3927273">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -300,22 +240,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/LoginSvl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/biz/UserBiz.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/util/DbInfo.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/dao/BookDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/RegisterSvl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/filter/AuthFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/filter/LogFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/filter/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/mhead.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/biz/BookBiz.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/atguigu/bk/dao/TestBookDao.java" />
       </list>
     </option>
   </component>
@@ -345,6 +285,20 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="bookStore Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
@@ -352,8 +306,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="898" />
-    <option name="y" value="21" />
+    <option name="x" value="964" />
+    <option name="y" value="29" />
     <option name="width" value="1590" />
     <option name="height" value="1018" />
   </component>
@@ -424,6 +378,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -586,100 +570,6 @@
               <option name="myItemId" value="bk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DbInfo.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -722,9 +612,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.XML" />
+    <property name="options.lastSelected" value="File.Encoding" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../20161009/md2spring_mvc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../20161009/pictureFriend" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -732,11 +622,14 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programmer\workspace4IDEA\KeepLearning\Projects\SpringMVC+MyBatis\BookStore\src\test\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\programmer\workspace4IDEA\KeepLearning\Projects\SpringMVC+MyBatis\BookStore\src\main\webapp\WEB-INF\views" />
       <recent name="D:\programmer\workspace4IDEA\KeepLearning\Projects\SpringMVC+MyBatis\BookStore\src\main\resources" />
@@ -787,6 +680,68 @@
         </option>
       </method>
     </configuration>
+    <configuration default="false" name="TestBookDao" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.bk.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BookStore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.atguigu.bk.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.bk.dao.TestBookDao" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestBookDao.testGetBookPic" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.bk.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BookStore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.atguigu.bk.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.bk.dao.TestBookDao" />
+      <option name="METHOD_NAME" value="testGetBookPic" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 6.0">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
       <deployment>
@@ -797,7 +752,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_BookStore_12" />
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_BookStore_38" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -863,6 +818,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -891,19 +859,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -917,6 +872,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1021,15 +983,17 @@
         </option>
       </method>
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 6.0" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestBookDao" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestBookDao.testGetBookPic" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
-        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestBookDao.testGetBookPic" />
         <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
         <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
         <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
@@ -1087,35 +1051,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="898" y="21" width="1590" height="1018" extended-state="0" />
+    <frame x="964" y="29" width="1590" height="1018" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827103" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35280374" sideWeight="0.49963263" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35280374" sideWeight="0.49934298" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35324016" sideWeight="0.5003674" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35280374" sideWeight="0.500657" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7407878" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46728972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827103" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299045" sideWeight="0.67090213" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.67172897" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827103" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967149" sideWeight="0.67172897" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299045" sideWeight="0.64675987" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909784" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1184,129 +1148,116 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/log4j/log4j/1.2.8/org/apache/log4j/spi/RepositorySelector.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="19" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
+        <state line="67" column="11" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.7967807">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/log4j/log4j/1.2.8/org/apache/log4j/LogManager.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="40" selection-start="6251" selection-end="6251" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/log4j/log4j/1.2.8/org/apache/log4j/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="26" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.35412025">
-          <folding>
-            <element signature="e#0#3587#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.9.RELEASE/spring-webmvc-3.2.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="298" selection-end="298" vertical-scroll-proportion="0.03557312">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BackAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/util/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/MainSvl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.68725866">
+        <state line="1" column="43" selection-start="47" selection-end="84" vertical-scroll-proportion="0.036217302">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/util/DbInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.0">
+        <state line="72" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.33199194">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/mhead.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="31" selection-start="6356" selection-end="6356" vertical-scroll-proportion="-6.266667">
+        <state line="3" column="39" selection-start="177" selection-end="177" vertical-scroll-proportion="0.10887097">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/dao/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="49" selection-start="539" selection-end="539" vertical-scroll-proportion="-9.333333">
+        <state line="61" column="4" selection-start="1419" selection-end="1419" vertical-scroll-proportion="0.06545454">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookPicSvl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+        <state line="13" column="13" selection-start="360" selection-end="360" vertical-scroll-proportion="-0.10909091">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookAction.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.9.RELEASE/spring-web-3.2.9.RELEASE.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="65" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+        <state line="23" column="34" selection-start="1962" selection-end="1962" vertical-scroll-proportion="-6.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.9.RELEASE/spring-webmvc-3.2.9.RELEASE.jar!/org/springframework/web/servlet/mvc/annotation/AnnotationMethodHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="59" selection-start="4822" selection-end="4822" vertical-scroll-proportion="-6.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.9.RELEASE/spring-webmvc-3.2.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="0" selection-start="8298" selection-end="8298" vertical-scroll-proportion="0.5513834">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/dao/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="29" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.25367647">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/RegisterSvl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+        <state line="54" column="32" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/filter/AuthFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.0">
+        <state line="13" column="4" selection-start="460" selection-end="460" vertical-scroll-proportion="-7.740741">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/filter/LogFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.3927273">
+        <state line="16" column="49" selection-start="633" selection-end="633" vertical-scroll-proportion="-10.666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/biz/BookBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="26" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../dev/jdk1.6.0_38/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1060" column="67" selection-start="54637" selection-end="54701" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/atguigu/bk/dao/TestBookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="338" selection-end="338" vertical-scroll-proportion="0.48">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

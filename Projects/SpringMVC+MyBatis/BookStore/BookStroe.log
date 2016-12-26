@@ -1,0 +1,4 @@
+2016-12-26 12:35:09 com.atguigu.bk.util.DbInfo.getProperties(DbInfo.java:84) DbInfo.java ERROR D:\programmer\workspace4IDEA\KeepLearning\Projects\SpringMVC+MyBatis\BookStore\target\test-classes\db.properties (系统找不到指定的文件。)
+2016-12-26 12:35:41 com.atguigu.bk.util.DbInfo.getProperties(DbInfo.java:84) DbInfo.java ERROR D:\programmer\workspace4IDEA\KeepLearning\Projects\SpringMVC+MyBatis\BookStore\target\test-classes\db.properties (系统找不到指定的文件。)
+2016-12-26 12:37:49 com.atguigu.bk.util.DbInfo.getProperties(DbInfo.java:84) DbInfo.java ERROR D:\programmer\workspace4IDEA\KeepLearning\Projects\SpringMVC+MyBatis\BookStore\target\test-classes\db.properties (系统找不到指定的文件。)
+2016-12-26 12:37:56 com.atguigu.bk.util.DbInfo.getProperties(DbInfo.java:84) DbInfo.java ERROR D:\programmer\workspace4IDEA\KeepLearning\Projects\SpringMVC+MyBatis\BookStore\target\test-classes\db.properties (系统找不到指定的文件。)

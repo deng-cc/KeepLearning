@@ -1,6 +1,8 @@
 package com.atguigu.bk.dao;
 
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
@@ -31,7 +33,7 @@ public class BookDao extends BaseDao{
 	}
 	
 	/**
-	 * Ö÷Ò³ÏÔÊ¾£¬ËùÓĞÍ¼ÊéĞÅÏ¢
+	 * ï¿½ï¿½Ò³ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½Ï¢
 	 * @return
 	 * @throws Exception
 	 */
@@ -60,7 +62,7 @@ public class BookDao extends BaseDao{
 	}
 	
 	/**
-	 * ¸ù¾İÖ¸¶¨µÄisbn£¬ÌáÈ¡¶ÔÓ¦µÄÍ¼Æ¬
+	 * ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½isbnï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½Ó¦ï¿½ï¿½Í¼Æ¬
 	 * @param isbn
 	 * @return
 	 * @throws Exception
@@ -73,18 +75,20 @@ public class BookDao extends BaseDao{
 		PreparedStatement ps = this.connection.prepareStatement(sql);
 		ps.setString(1, isbn);
 		ResultSet rs = ps.executeQuery();
-		if(rs != null){
+
+        //todo rs=true,æ‰§è¡Œå®Œifçš„æ¡ä»¶åˆ¤æ–­åå˜ä¸ºäº†falseï¼Œæœªè§£ä¹‹è°œ
+        if(rs != null){
 			while(rs.next()){
 				pic = rs.getBytes("pic");
 				break;
 			}
 		}
-		
+
 		return pic;
 	}
 	
 	/**
-	 * ¸ù¾İÊéºÅÌáÈ¡ÊéµÄÏêÏ¸ĞÅÏ¢£¨²»º¬Í¼Æ¬ĞÅÏ¢£©
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼Æ¬ï¿½ï¿½Ï¢ï¿½ï¿½
 	 * @return
 	 * @throws Exception
 	 */
@@ -113,7 +117,7 @@ public class BookDao extends BaseDao{
 	
 
 	/**
-	 * ¸ù¾İÊéµÄÖ÷¼üĞÅÏ¢£¬ÌáÈ¡ËùÓĞÍ¼ÊéĞÅÏ¢
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½Ï¢
 	 * @param isbns
 	 * @return
 	 * @throws Exception

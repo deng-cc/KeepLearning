@@ -24,15 +24,15 @@
  7. **返回控制权给DispatcherServlet**：由DispatcherServlet返回响应给用户，到此一个流程结束（此处流程只描述了核心，未考虑拦截器等）。
 
 
-<font color=#FF0000 size=4>**所以具体的核心开发步骤为**</font>
-1、DispatcherServlet在web.xml中的部署描述；
-2、HandlerMappng的配置；
+<font color=#FF0000 size=4>**所以具体的核心开发步骤为**</font><br>
+1、DispatcherServlet在web.xml中的部署描述；<br>
+2、HandlerMappng的配置<br>
 e.g.
 >&lt;bean id="handlerMapping" class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"&gt;
 >>默认的映射处理器，该映射处理器表示将请求的URL和Bean名字映射，如URL为 “上下文/hello”，则Spring配置文件必须有一个名字为“/hello”的Bean。所以后端控制器的beanName必须"/"开头，同时也支持通配符。
 
-3、HandlerAdapter的配置，从而支持多种类型的处理器；
-4、ViewResolver的配置，从而将逻辑视图名解析为具体视图技术；
+3、HandlerAdapter的配置，从而支持多种类型的处理器；<br>
+4、ViewResolver的配置，从而将逻辑视图名解析为具体视图技术；<br>
 5、处理器（页面控制器）的配置，从而进行功能处理。
 
 
@@ -46,7 +46,7 @@ e.g.
 
 
 
-## 如何让jsp页面更安全？
+## 如何让jsp页面更安全
 MVC模型，正确的流程应该是 `客户端请求-->Controller-->View-->客户端`，但是我们可以通过浏览器地址的方式直接访问jsp，而页面往往需要数据填充，也就是说我们这样直接访问，会出现错误。
 >如何避免？
 >>我们知道，WEB-INF目录是不对外开放的，外部没法直接通过URL访问。所以，将jsp页面放入到WEB-INF文件夹之下，这样可以限制访问，提供安全性。
@@ -54,6 +54,42 @@ MVC模型，正确的流程应该是 `客户端请求-->Controller-->View-->客�
 当然，这种做法也是褒贬不一，有好处也有坏处。
 
  - [讨论：关于jsp页面是放在webroot目录下和web-inf下优缺点][4]
+
+## 存储和读取图片的两种方式
+
+ - 在数据库中存储图片的地址，读取的时候通过查找到图片的地址，去对应的地址读取；
+ - 在数据库中存储图片的二进制，读取的时候直接使用img标签，src读取出来图片。<br>
+ 第二种方式并不推荐，加大了数据库的负担，此处也仅做学习使用，具体的操作，可以下如下代码：
+
+``` stylus
+@Test
+    public void testGetBookPic() {
+        //hint: 如何将图片以二进制的形式存入到oracle中的blob类型
+        String sql = "update tbook set pic=? where isbn=?";
+        try {
+            Class.forName("oracle.jdbc.driver.OracleDriver");
+            Connection connention = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "test", "test");
+            PreparedStatement ps = connention.prepareStatement(sql);
+
+			//hint:  void setBinaryStream(int parameterIndex, java.io.InputStream x)
+            File file = new File("C:\\Users\\Administrator\\Desktop\\400501128467508726.jpg");
+            FileInputStream in = new FileInputStream(file);
+            ps.setBinaryStream(1, in);
+            ps.setString(2, "s004");
+            ps.executeUpdate();
+            connention.close();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+```
+
 
 
   [1]: http://jinnianshilongnian.iteye.com/blog/1594806

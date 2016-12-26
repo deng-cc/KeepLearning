@@ -33,7 +33,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       	<td>
       		<table border="1" width=100%>       		
       		    <c:forEach var="bk" items="${books}">
-      				<tr><td rowspan=3><img width=100 height=100 src="<%=basePath%>BookPicSvl?isbn=${bk.isbn}"/></td><td colspan=2 align=center style="color:red"><a href="<%=basePath%>BookDetailSvl?isbn=${bk.isbn}">${bk.bname}</a></td></tr>
+      				<tr><td rowspan=3><img width=100 height=100 src="<%=basePath%>/book/pic.do?isbn=${bk.isbn}"/></td><td colspan=2 align=center style="color:red"><a href="<%=basePath%>BookDetailSvl?isbn=${bk.isbn}">${bk.bname}</a></td></tr>
        				<tr><td>商品价格</td><td>${bk.price}</td></tr>
        				<tr><td>出版社</td><td>${bk.press}</td></tr>           		       			
        		    </c:forEach>

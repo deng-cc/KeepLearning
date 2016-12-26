@@ -7,7 +7,7 @@
         >
     
     <context:component-scan base-package="com.atguigu.bk.controller" />
-    <!--如果不采用注解方式，则对于地址映射需要在此以bean的形式进行解析-->
+    <!--如果不采用注解方式，则对于地址映射需要在此以bean的形式进行配置-->
     
     <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views"></property>

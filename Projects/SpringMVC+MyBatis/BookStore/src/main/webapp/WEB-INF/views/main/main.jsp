@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="GBK"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core" %>
 <%
 String path = request.getContextPath();
@@ -33,9 +33,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       	<td>
       		<table border="1" width=100%>       		
       		    <c:forEach var="bk" items="${books}">
-      				<tr><td rowspan=3><img width=100 height=100 src="<%=basePath%>BookPicSvl?isbn=${bk.isbn}"/></td><td colspan=2 align=center style="color:red"><a href="<%=basePath%>BookDetailSvl?isbn=${bk.isbn}">${bk.bname}</a></td></tr>
-       				<tr><td>ÉÌÆ·¼Û¸ñ</td><td>${bk.price}</td></tr>
-       				<tr><td>³ö°æÉç</td><td>${bk.press}</td></tr>           		       			
+      				<tr><td rowspan=3><img width=100 height=100 src="<%=basePath%>/book/pic.do?isbn=${bk.isbn}"/></td><td colspan=2 align=center style="color:red"><a href="<%=basePath%>BookDetailSvl?isbn=${bk.isbn}">${bk.bname}</a></td></tr>
+       				<tr><td>å•†å“ä»·æ ¼</td><td>${bk.price}</td></tr>
+       				<tr><td>å‡ºç‰ˆç¤¾</td><td>${bk.press}</td></tr>           		       			
        		    </c:forEach>
     	</table>
       	</td>

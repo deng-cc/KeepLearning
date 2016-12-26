@@ -1,17 +1,17 @@
-<%@ page language="java" import="java.util.*" pageEncoding="gbk"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core" %>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
 <c:if test="${user != null}">
-    welcome you ${user.uname} &nbsp;<a href="<%=basePath%>ShopCarSvl">¹ºÎï³µ</a>&nbsp;<a href="<%=basePath%>LogoutSvl">ÍË³ö</a>
+    welcome you ${user.uname} &nbsp;<a href="<%=basePath%>ShopCarSvl">è´­ç‰©è½¦</a>&nbsp;<a href="<%=basePath%>LogoutSvl">é€€å‡º</a>
     <c:if test="${user.role == 1}">
-        <a href="<%=basePath%>back/BookAddSvl">ºóÌ¨</a>
+        <a href="<%=basePath%>back/BookAddSvl">åå°</a>
     </c:if>
 </c:if>
 <c:if test="${user == null}">
- <a href="<%=basePath%>LoginSvl">µÇÂ¼</a>
+ <a href="<%=basePath%>LoginSvl">ç™»å½•</a>
 </c:if>
 
       	  		       	   
