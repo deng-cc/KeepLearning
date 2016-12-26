@@ -76,7 +76,6 @@ public class BookDao extends BaseDao{
 		ps.setString(1, isbn);
 		ResultSet rs = ps.executeQuery();
 
-        //todo rs=true,执行完if的条件判断后变为了false，未解之谜
         if(rs != null){
 			while(rs.next()){
 				pic = rs.getBytes("pic");

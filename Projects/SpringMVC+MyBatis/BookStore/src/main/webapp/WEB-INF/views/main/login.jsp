@@ -23,7 +23,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    <form action="<%=basePath%>LoginSvl" method="post">
+    <form action="<%=basePath%>/user/login.do" method="post">
         <table align="center">
             <tr><td height=200></td></tr>
             <tr><td>ÓÃ»§Ãû£º</td><td><input type="text" name="uname"></td></tr>

@@ -5,13 +5,26 @@
  - 将jdbc的持久层更改为MyBatis形式；
  - 对springMVC和MyBatis进行整合。
 
-# 关于Tag
+
+----------
+
+
+# 关于Tag和todo
+## Tag
 部分需要特别备注的更迭，将会在git中以tag标签的形式进行标记。
  - v1.0：初始结构 jsp+servlet+jdbc; IDEA+Maven
 
+## todo
+代码中大量使用了注释，其中不同开头对我个人代表不同的含义。
+
+ - todo：表示还没有解决的问题，或者自己的疑惑；
+ - hint：表示学习中的知识点，用于帮助自己提示和学习。
+
+----------
+
 
 # 项目收获小结
-## SpringMVC的基本模型
+## 1）SpringMVC的基本模型
 <img src="https://github.com/deng-cc/KeepLearning/raw/master/pics/spring/springMVC_model_01.JPG" width="700"  /><br>
 <img src="https://github.com/deng-cc/KeepLearning/raw/master/pics/spring/springMVC_model_02.JPG" width="700"  />
 
@@ -46,7 +59,7 @@ e.g.
 
 
 
-## 如何让jsp页面更安全
+## 2）如何让jsp页面更安全
 MVC模型，正确的流程应该是 `客户端请求-->Controller-->View-->客户端`，但是我们可以通过浏览器地址的方式直接访问jsp，而页面往往需要数据填充，也就是说我们这样直接访问，会出现错误。
 >如何避免？
 >>我们知道，WEB-INF目录是不对外开放的，外部没法直接通过URL访问。所以，将jsp页面放入到WEB-INF文件夹之下，这样可以限制访问，提供安全性。
@@ -55,7 +68,7 @@ MVC模型，正确的流程应该是 `客户端请求-->Controller-->View-->客�
 
  - [讨论：关于jsp页面是放在webroot目录下和web-inf下优缺点][4]
 
-## 存储和读取图片的两种方式
+## 3）存储和读取图片的两种方式
 
  - 在数据库中存储图片的地址，读取的时候通过查找到图片的地址，去对应的地址读取；
  - 在数据库中存储图片的二进制，读取的时候直接使用img标签，src读取出来图片。<br>
