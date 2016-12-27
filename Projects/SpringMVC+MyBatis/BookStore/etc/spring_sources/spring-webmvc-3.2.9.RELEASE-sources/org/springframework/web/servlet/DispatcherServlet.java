@@ -857,6 +857,7 @@ public class DispatcherServlet extends FrameworkServlet {
 		request.setAttribute(FLASH_MAP_MANAGER_ATTRIBUTE, this.flashMapManager);
 
 		try {
+            //origin doDispatcher(request, response)
 			doDispatch(request, response);
 		}
 		finally {
@@ -881,9 +882,10 @@ public class DispatcherServlet extends FrameworkServlet {
 	 * @param response current HTTP response
 	 * @throws Exception in case of any kind of processing failure
 	 */
+    //origin doDispatch 重点：ModelAndView（用以表示所有动态的页面信息）
 	protected void doDispatch(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		HttpServletRequest processedRequest = request;
-		HandlerExecutionChain mappedHandler = null;
+		HandlerExecutionChain mappedHandler = null; //origin HandlerExecutionChain
 		boolean multipartRequestParsed = false;
 
 		WebAsyncManager asyncManager = WebAsyncUtils.getAsyncManager(request);
@@ -904,6 +906,7 @@ public class DispatcherServlet extends FrameworkServlet {
 				}
 
 				// Determine handler adapter for the current request.
+                //origin HandlerAdapter
 				HandlerAdapter ha = getHandlerAdapter(mappedHandler.getHandler());
 
 				// Process last-modified header, if supported by the handler.
@@ -918,13 +921,14 @@ public class DispatcherServlet extends FrameworkServlet {
 						return;
 					}
 				}
-
+                //origin 前置拦截器
 				if (!mappedHandler.applyPreHandle(processedRequest, response)) {
 					return;
 				}
 
 				try {
 					// Actually invoke the handler.
+                    //origin handle() --> 驱动真正的Action
 					mv = ha.handle(processedRequest, response, mappedHandler.getHandler());
 				}
 				finally {
@@ -934,11 +938,13 @@ public class DispatcherServlet extends FrameworkServlet {
 				}
 
 				applyDefaultViewName(request, mv);
+                //origin 后置拦截器
 				mappedHandler.applyPostHandle(processedRequest, response, mv);
 			}
 			catch (Exception ex) {
 				dispatchException = ex;
 			}
+            //origin processDispatcherResult
 			processDispatchResult(processedRequest, response, mappedHandler, mv, dispatchException);
 		}
 		catch (Exception ex) {
@@ -992,6 +998,7 @@ public class DispatcherServlet extends FrameworkServlet {
 
 		// Did the handler return a view to render?
 		if (mv != null && !mv.wasCleared()) {
+            //origin render
 			render(mv, request, response);
 			if (errorView) {
 				WebUtils.clearErrorRequestAttributes(request);
@@ -1184,9 +1191,11 @@ public class DispatcherServlet extends FrameworkServlet {
 		Locale locale = this.localeResolver.resolveLocale(request);
 		response.setLocale(locale);
 
+        //origin View
 		View view;
 		if (mv.isReference()) {
 			// We need to resolve the view name.
+            //origin resolveViewName
 			view = resolveViewName(mv.getViewName(), mv.getModelInternal(), locale, request);
 			if (view == null) {
 				throw new ServletException("Could not resolve view with name '" + mv.getViewName() +
@@ -1207,6 +1216,7 @@ public class DispatcherServlet extends FrameworkServlet {
 			logger.debug("Rendering view [" + view + "] in DispatcherServlet with name '" + getServletName() + "'");
 		}
 		try {
+            //origin view.render 视图返回客户端
 			view.render(mv.getModelInternal(), request, response);
 		}
 		catch (Exception ex) {

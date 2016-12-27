@@ -72,6 +72,118 @@ e.g.
 在源码中，大致的流程如下图（同时可参考源码中的origin注释）：
 <img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_dispatcherAndApplicationContext.jpg?raw=true" width="700"  /><br>
 
+## 3）SpringMVC核心架构图
+<img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_workflow.jpg?raw=true" width="700"  /><br>
+在DispatcherServlet和ApplicationContext中我们已经了解到了，DispatcherServlet的初始化和容器初始化的关系，那么请求到达DispatcherServlet，再由其发往我们自己写的Action的过程，又是怎样？<br>
+DispatcherServlet本质来说就是一个Servlet，那么其核心的方法service，就是根据不同的请求进行分发，比如doGet、doPost。<br>
+从源码中我们分析可以了解到，大概的流程是这样的：DispatcherServlet --> service() --> processRequest() --> doService() --> doDispatch()<br>
+那么在doDispatch()方法中，我们就可以看到我们熟悉的ModelAndView、HandlerExecutionChain、HandlerAdapter等，以及它会使用handle()方法去驱动我们真正的自定义的Action。（hint：从DispatcherServlet和ApplicationContext关系我们就知道，我们在spring-mvc.xml中配置的ViewResolver，在Tomcat启动时进行了初始化，已经存在了）
+
+``` stylus
+//origin doDispatch 重点：ModelAndView（用以表示所有动态的页面信息）
+	protected void doDispatch(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		HttpServletRequest processedRequest = request;
+		HandlerExecutionChain mappedHandler = null; //origin HandlerExecutionChain
+		boolean multipartRequestParsed = false;
+
+		WebAsyncManager asyncManager = WebAsyncUtils.getAsyncManager(request);
+
+		try {
+			ModelAndView mv = null;
+			Exception dispatchException = null;
+
+			try {
+				processedRequest = checkMultipart(request);
+				multipartRequestParsed = processedRequest != request;
+
+				// Determine handler for the current request.
+				mappedHandler = getHandler(processedRequest, false);
+				if (mappedHandler == null || mappedHandler.getHandler() == null) {
+					noHandlerFound(processedRequest, response);
+					return;
+				}
+
+				// Determine handler adapter for the current request.
+				HandlerAdapter ha = getHandlerAdapter(mappedHandler.getHandler()); //origin HandlerAdapter
+
+				// Process last-modified header, if supported by the handler.
+				String method = request.getMethod();
+				boolean isGet = "GET".equals(method);
+				if (isGet || "HEAD".equals(method)) {
+					long lastModified = ha.getLastModified(request, mappedHandler.getHandler());
+					if (logger.isDebugEnabled()) {
+						logger.debug("Last-Modified value for [" + getRequestUri(request) + "] is: " + lastModified);
+					}
+					if (new ServletWebRequest(request, response).checkNotModified(lastModified) && isGet) {
+						return;
+					}
+				}
+                //origin 前置拦截器
+				if (!mappedHandler.applyPreHandle(processedRequest, response)) {
+					return;
+				}
+
+				try {
+					// Actually invoke the handler.
+                    //origin handle() --> 驱动真正的Action
+					mv = ha.handle(processedRequest, response, mappedHandler.getHandler());
+				}
+				finally {
+					if (asyncManager.isConcurrentHandlingStarted()) {
+						return;
+					}
+				}
+
+				applyDefaultViewName(request, mv);
+                //origin 后置拦截器
+				mappedHandler.applyPostHandle(processedRequest, response, mv);
+			}
+			catch (Exception ex) {
+				dispatchException = ex;
+			}
+			processDispatchResult(processedRequest, response, mappedHandler, mv, dispatchException);
+		}
+		catch (Exception ex) {
+			triggerAfterCompletion(processedRequest, response, mappedHandler, ex);
+		}
+		catch (Error err) {
+			triggerAfterCompletionWithError(processedRequest, response, mappedHandler, err);
+		}
+		finally {
+			if (asyncManager.isConcurrentHandlingStarted()) {
+				// Instead of postHandle and afterCompletion
+				mappedHandler.applyAfterConcurrentHandlingStarted(processedRequest, response);
+				return;
+			}
+			// Clean up any resources used by a multipart request.
+			if (multipartRequestParsed) {
+				cleanupMultipart(processedRequest);
+			}
+		}
+	}
+```
+那么我们知道，在Controller完成之后，会将ModelAndView给视图解析器，在源码中，我们可以看到，在handle()方法执行完之后，会调用processDispatchResult ()方法，该方法调用render() --> resolveViewName()调用视图解析器来解析视图 + view.render()，最终转到了我们所看到的页面。<br>
+
+`注：以上的流程主要涉及核心流程，并非事无巨细地描述。在此处的记录，除了在底层去了解SpringMVC的运行机制以外，也更主要是为了便于今后对源码的回顾解析，起到导向牵引的作用。`
+<br>
+下面我们来看下相关的时序图：
+<img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_workflow_SequenceDiagram.jpg?raw=true" width="700"  /><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br>

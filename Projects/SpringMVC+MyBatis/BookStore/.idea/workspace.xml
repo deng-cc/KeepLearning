@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482727281965" ignored="false" />
     <file path="/db.properties" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482297403703" ignored="false" />
-    <file path="/a.dummy" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482807864250" ignored="false" />
+    <file path="/a.dummy" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482842587986" ignored="false" />
     <file path="/fragment.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482727790270" ignored="false" />
     <file path="/web.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482473074297" ignored="false" />
     <file path="/BookAction.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482740758320" ignored="false" />
@@ -21,9 +21,10 @@
     <file path="/mhead.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482741443948" ignored="false" />
     <file path="/UserAction.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482741615883" ignored="false" />
     <file path="/login.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482740306198" ignored="false" />
-    <file path="/DispatcherServlet.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482807470143" ignored="false" />
+    <file path="/DispatcherServlet.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482838545056" ignored="false" />
     <file path="/HttpServletBean.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482807737941" ignored="false" />
-    <file path="/FrameworkServlet.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482807315044" ignored="false" />
+    <file path="/FrameworkServlet.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482828820733" ignored="false" />
+    <file path="/HttpServlet.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482828483007" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,52 +43,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/FrameworkServlet.java" line="458" class="org.springframework.web.servlet.FrameworkServlet" package="org.springframework.web.servlet">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/FrameworkServlet.java" line="466" class="org.springframework.web.servlet.FrameworkServlet" package="org.springframework.web.servlet">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/FrameworkServlet.java" line="496" class="org.springframework.web.servlet.FrameworkServlet" package="org.springframework.web.servlet">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/FrameworkServlet.java" line="527" class="org.springframework.web.servlet.FrameworkServlet" package="org.springframework.web.servlet">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -147,21 +103,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java" line="445" class="org.springframework.web.servlet.DispatcherServlet" package="org.springframework.web.servlet">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java" line="369" class="org.springframework.web.servlet.DispatcherServlet" package="org.springframework.web.servlet">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -192,7 +133,112 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/HttpServletBean.java" line="124" class="org.springframework.web.servlet.HttpServletBean" package="org.springframework.web.servlet">
+      <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/FrameworkServlet.java" line="834" class="org.springframework.web.servlet.FrameworkServlet" package="org.springframework.web.servlet">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/FrameworkServlet.java" line="838" class="org.springframework.web.servlet.FrameworkServlet" package="org.springframework.web.servlet">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java" line="833" class="org.springframework.web.servlet.DispatcherServlet" package="org.springframework.web.servlet">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java" line="886" class="org.springframework.web.servlet.DispatcherServlet" package="org.springframework.web.servlet">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/UserAction.java" line="27" class="com.atguigu.bk.controller.UserAction" package="com.atguigu.bk.controller">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java" line="947" class="org.springframework.web.servlet.DispatcherServlet" package="org.springframework.web.servlet">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java" line="1198" class="org.springframework.web.servlet.DispatcherServlet" package="org.springframework.web.servlet">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java" line="1219" class="org.springframework.web.servlet.DispatcherServlet" package="org.springframework.web.servlet">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -254,10 +300,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="388" selection-end="388" vertical-scroll-proportion="-7.3333335">
+            <state line="12" column="51" selection-start="440" selection-end="440" vertical-scroll-proportion="0.28915662">
               <folding />
             </state>
           </provider>
@@ -272,46 +318,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="DispatcherServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="45" selection-start="6779" selection-end="6800" vertical-scroll-proportion="-2.8">
+            <state line="949" column="30" selection-start="42569" selection-end="42569" vertical-scroll-proportion="-6.206897">
+              <folding>
+                <element signature="e#8429#8456#0" expanded="true" />
+                <element signature="e#35488#35518#0" expanded="true" />
+                <element signature="e#55086#55116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/UserAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DispatcherServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java">
+      <file leaf-file-name="HandlerAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/HandlerAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="336" column="19" selection-start="17329" selection-end="17329" vertical-scroll-proportion="-5.62069">
-              <folding>
-                <element signature="e#8429#8456#0" expanded="true" />
-                <element signature="e#35488#35518#0" expanded="true" />
-                <element signature="e#54619#54649#0" expanded="true" />
-              </folding>
+            <state line="65" column="42" selection-start="2742" selection-end="2742" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrameworkServlet.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FrameworkServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/FrameworkServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="513" column="67" selection-start="23154" selection-end="23154" vertical-scroll-proportion="0.35315984">
-              <folding>
-                <element signature="e#6768#6795#0" expanded="true" />
-                <element signature="e#16047#16077#0" expanded="true" />
-                <element signature="e#32428#32458#0" expanded="true" />
-              </folding>
+            <state line="964" column="9" selection-start="40749" selection-end="40749" vertical-scroll-proportion="4.5172415">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -319,11 +361,19 @@
       <file leaf-file-name="HttpServletBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/HttpServletBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="10" selection-start="5959" selection-end="5959" vertical-scroll-proportion="0.0">
+            <state line="150" column="36" selection-start="6268" selection-end="6268" vertical-scroll-proportion="-11.620689">
               <folding>
                 <element signature="e#3381#3408#0" expanded="true" />
-                <element signature="e#3795#3803#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/tomcat_sources/apache-tomcat-6.0.35-src/java/javax/servlet/http/HttpServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="528" column="50" selection-start="21438" selection-end="21445" vertical-scroll-proportion="-5.413793">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -338,7 +388,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/main.jsp" />
@@ -351,9 +400,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/mhead.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/UserAction.java" />
         <option value="$PROJECT_DIR$/etc/spring_sources/org/springframework/web/servlet/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/HttpServletBean.java" />
         <option value="$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/FrameworkServlet.java" />
         <option value="$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java" />
-        <option value="$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/HttpServletBean.java" />
+        <option value="$PROJECT_DIR$/etc/tomcat_sources/apache-tomcat-6.0.35-src/java/javax/servlet/http/HttpServlet.java" />
       </list>
     </option>
   </component>
@@ -404,10 +454,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="393" />
-    <option name="y" value="32" />
+    <option name="x" value="4" />
+    <option name="y" value="2" />
     <option name="width" value="1590" />
-    <option name="height" value="1000" />
+    <option name="height" value="993" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -442,7 +492,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -702,6 +751,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -712,7 +762,7 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="File.Encoding" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/etc/tomcat_sources/apache-tomcat-6.0.35-src/java" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -843,14 +893,14 @@
     <configuration default="false" name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 6.0">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
       <deployment>
-        <artifact name="BookStore:war">
+        <artifact name="BookStore:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_BookStore_46" />
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_BookStore_50" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -858,12 +908,8 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="3742" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -880,7 +926,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="BookStore:war" />
+          <artifact name="BookStore:war exploded" />
         </option>
       </method>
     </configuration>
@@ -1155,16 +1201,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="393" y="32" width="1590" height="1000" extended-state="0" />
+    <frame x="4" y="2" width="1590" height="993" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32816228" sideWeight="0.49934298" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273165" sideWeight="0.49934298" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36038187" sideWeight="0.49934298" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35980746" sideWeight="0.49934298" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32816228" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1178,8 +1224,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.67172897" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32816228" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967149" sideWeight="0.6718377" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967149" sideWeight="0.67268354" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299045" sideWeight="0.64675987" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1256,48 +1302,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.9.RELEASE/spring-web-3.2.9.RELEASE.jar!/org/springframework/web/multipart/MultipartResolver.class">
+    <entry file="jar://$PROJECT_DIR$/../../../../../dev/apache-tomcat-6.0.35/lib/servlet-api.jar!/javax/servlet/GenericServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="180" selection-end="180" vertical-scroll-proportion="0.11826544" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.9.RELEASE/spring-webmvc-3.2.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" />
+        <state line="17" column="39" selection-start="643" selection-end="643" vertical-scroll-proportion="0.35042736" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../../../dev/apache-tomcat-6.0.35/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="78" selection-start="946" selection-end="946" vertical-scroll-proportion="-2.7037036" />
+        <state line="12" column="61" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#3173#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.9.RELEASE/spring-beans-3.2.9.RELEASE.jar!/org/springframework/beans/BeanWrapperImpl.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="16" selection-start="6677" selection-end="6677" vertical-scroll-proportion="-6.12" />
+        <state line="163" column="64" selection-start="6709" selection-end="6709" vertical-scroll-proportion="0.47425476">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.9.RELEASE/spring-beans-3.2.9.RELEASE.jar!/org/springframework/beans/AbstractPropertyAccessor.class">
+    <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="1061" selection-end="1061" vertical-scroll-proportion="-7.56" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../dev/apache-tomcat-6.0.35/lib/servlet-api.jar!/javax/servlet/ServletConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="249" selection-end="249" vertical-scroll-proportion="0.28402367">
+        <state line="45" column="17" selection-start="1874" selection-end="1874" vertical-scroll-proportion="-0.24455826">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../dev/apache-tomcat-6.0.35/lib/servlet-api.jar!/javax/servlet/GenericServlet.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="39" selection-start="643" selection-end="643" vertical-scroll-proportion="0.35042736">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="388" selection-end="388" vertical-scroll-proportion="-7.3333335">
+        <state line="15" column="8" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1311,7 +1355,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.2.9.RELEASE/spring-context-3.2.9.RELEASE.jar!/org/springframework/context/event/SourceFilteringListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="1049" selection-end="1049" vertical-scroll-proportion="-12.6">
+        <state line="22" column="19" selection-start="1049" selection-end="1049" vertical-scroll-proportion="-12.44">
           <folding />
         </state>
       </provider>
@@ -1325,56 +1369,63 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/3.2.9.RELEASE/spring-context-3.2.9.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="28" selection-start="11234" selection-end="11234" vertical-scroll-proportion="-5.88">
+        <state line="192" column="28" selection-start="11234" selection-end="11234" vertical-scroll-proportion="-5.48">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/etc/tomcat_sources/apache-tomcat-6.0.35-src/java/javax/servlet/http/HttpServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="45" selection-start="6779" selection-end="6800" vertical-scroll-proportion="-2.8">
+        <state line="528" column="50" selection-start="21438" selection-end="21445" vertical-scroll-proportion="-5.413793">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/HttpServletBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="10" selection-start="5959" selection-end="5959" vertical-scroll-proportion="0.0">
+        <state line="150" column="36" selection-start="6268" selection-end="6268" vertical-scroll-proportion="-11.620689">
           <folding>
             <element signature="e#3381#3408#0" expanded="true" />
-            <element signature="e#3795#3803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="336" column="19" selection-start="17329" selection-end="17329" vertical-scroll-proportion="-5.62069">
-          <folding>
-            <element signature="e#8429#8456#0" expanded="true" />
-            <element signature="e#35488#35518#0" expanded="true" />
-            <element signature="e#54619#54649#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/FrameworkServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="513" column="67" selection-start="23154" selection-end="23154" vertical-scroll-proportion="0.35315984">
+        <state line="964" column="9" selection-start="40749" selection-end="40749" vertical-scroll-proportion="4.5172415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/HandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="42" selection-start="2742" selection-end="2742" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="949" column="30" selection-start="42569" selection-end="42569" vertical-scroll-proportion="-6.206897">
           <folding>
-            <element signature="e#6768#6795#0" expanded="true" />
-            <element signature="e#16047#16077#0" expanded="true" />
-            <element signature="e#32428#32458#0" expanded="true" />
+            <element signature="e#8429#8456#0" expanded="true" />
+            <element signature="e#35488#35518#0" expanded="true" />
+            <element signature="e#55086#55116#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="51" selection-start="440" selection-end="440" vertical-scroll-proportion="0.28915662">
+          <folding />
         </state>
       </provider>
     </entry>

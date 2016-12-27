@@ -524,7 +524,7 @@ public abstract class FrameworkServlet extends HttpServletBean {
 		}
 		if (wac == null) {
 			// No context instance is defined for this servlet -> create a local one
-            //origin //origin DispatcherServlet和ApplicationContext联系 --> step4.1.1.1：创建webApplicationContext
+            //origin DispatcherServlet和ApplicationContext联系 --> step4.1.1.1：创建webApplicationContext
 			wac = createWebApplicationContext(rootContext);
 		}
 
@@ -831,9 +831,11 @@ public abstract class FrameworkServlet extends HttpServletBean {
 
 		String method = request.getMethod();
 		if (method.equalsIgnoreCase(RequestMethod.PATCH.name())) {
+            //origin processRequest(request, response) --> doService()
 			processRequest(request, response);
 		}
 		else {
+            //origin doGet/doPost --> processRequest(request, response)
 			super.service(request, response);
 		}
 	}
@@ -848,7 +850,7 @@ public abstract class FrameworkServlet extends HttpServletBean {
 	@Override
 	protected final void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-
+        //origin doGet()
 		processRequest(request, response);
 	}
 
@@ -859,7 +861,7 @@ public abstract class FrameworkServlet extends HttpServletBean {
 	@Override
 	protected final void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-
+        //origin doPost()
 		processRequest(request, response);
 	}
 
@@ -958,6 +960,7 @@ public abstract class FrameworkServlet extends HttpServletBean {
 		initContextHolders(request, localeContext, requestAttributes);
 
 		try {
+            //origin 子类覆盖
 			doService(request, response);
 		}
 		catch (ServletException ex) {
