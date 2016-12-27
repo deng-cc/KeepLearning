@@ -1,5 +1,10 @@
-[toc]
-
+[概况](#概况)
+[关于Tag和todo](#关于Tag和todo)
+[项目收获小结](#项目收获小结)
+- [1）SpringMVC的基本模型](#1）SpringMVC的基本模型)
+- [2）DispatcherServlet和ApplicationContext](#2）DispatcherServlet和ApplicationContext)
+- [3）如何让jsp页面更安全](#3）如何让jsp页面更安全)
+- [4）存储和读取图片的两种方式](#4）存储和读取图片的两种方式)
 <br>
 
 # 概况
@@ -62,10 +67,10 @@ e.g.
 <br>
 
 ## 2）DispatcherServlet和ApplicationContext
-<img src="https://github.com/deng-cc/KeepLearning/raw/master/pics/spring/springMVC_withWebApplicationContext.JPG" width="700"  /><br>
+<img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_withWebApplicationContext.jpg?raw=true" width="700"  /><br>
 之前也有提到，DispatcherServlet不作为请求的处理，而是控制，这里它会进行一个容器的初始化，包括容器中的Controller、HandlerMapping、ViewResolver等。<br>
 在源码中，大致的流程如下图（同时可参考源码中的origin注释）：
-<img src="https://github.com/deng-cc/KeepLearning/raw/master/pics/spring/springMVC_dispatcherAndApplicationContext.JPG" width="700"  /><br>
+<img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_dispatcherAndApplicationContext.jpg?raw=true" width="700"  /><br>
 
 
 
