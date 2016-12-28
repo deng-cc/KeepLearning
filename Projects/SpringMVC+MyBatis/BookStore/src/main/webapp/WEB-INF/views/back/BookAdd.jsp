@@ -37,8 +37,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
        			<tr><td>出版日期</td><td><input type="text" name="pdate" class="easyui-datebox"/></td></tr>
        			<tr><td>价格</td><td><input type="text" name="price" class="easyui-numberbox" value=0 precision="2"/></td></tr>
        			<tr><td>图片上传</td><td><input type="file" name="pic2"/></td></tr>
-       			<tr><td colspan=2 align=center><input type=submit value=提交 /></td></tr>
-                ${msg}
+       			<tr><td colspan=2 align=center><input type=submit value=提交 />${msg}</td></tr>
     		</table>
     	</form>
       	</td>

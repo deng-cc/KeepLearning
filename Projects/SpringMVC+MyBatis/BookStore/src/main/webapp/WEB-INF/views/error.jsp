@@ -1,7 +1,7 @@
-<%@ page language="java" import="java.util.*" pageEncoding="gbk"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+    String path = request.getContextPath();
+    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -24,8 +24,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     <ul>
-      <li>${msg}</li>
-      <li><a href="<%=basePath%>LoginSvl">·µ»Ø</a></li>
+      <li>${msg} ${exception.message}</li>
+      <li><a href="<%=basePath%>/book/main.do">è¿”å›ž</a></li>
     </ul>
   </body>
 </html>

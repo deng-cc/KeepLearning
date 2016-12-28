@@ -4,13 +4,13 @@
     <list default="true" id="a9ef3326-92ec-4030-8ed3-8dbd95861bed" name="Default" comment="" />
     <ignored path="BookStore.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482845086066" ignored="false" />
+    <file path="/pom.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482896046698" ignored="false" />
     <file path="/db.properties" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482297403703" ignored="false" />
     <file path="/a.dummy" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482842587986" ignored="false" />
     <file path="/fragment.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482727790270" ignored="false" />
     <file path="/web.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482473074297" ignored="false" />
     <file path="/BookAction.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482893993016" ignored="false" />
-    <file path="/spring-mvc.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482892259255" ignored="false" />
+    <file path="/spring-mvc.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482901830140" ignored="false" />
     <file path="/index.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482683049491" ignored="false" />
     <file path="/main.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482731007596" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/atguigu/bk/enums/RoleEnum.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482678307458" ignored="false" />
@@ -27,6 +27,9 @@
     <file path="/BackAction.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482894693891" ignored="false" />
     <file path="/BookAdd.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482891243016" ignored="false" />
     <file path="/bhead.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482891744773" ignored="false" />
+    <file path="/BookBiz.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482897950703" ignored="false" />
+    <file path="/error.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482902649697" ignored="false" />
+    <file path="/OverMaxUploadSize.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482902861842" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,16 +113,43 @@
       <file leaf-file-name="spring-mvc.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="OverMaxUploadSize.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error/OverMaxUploadSize.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="47" selection-start="388" selection-end="388" vertical-scroll-proportion="-7.3333335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="2" selection-start="228" selection-end="228" vertical-scroll-proportion="-2.6666667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="388" selection-end="388" vertical-scroll-proportion="-7.3333335">
+            <state line="10" column="31" selection-start="383" selection-end="383" vertical-scroll-proportion="0.22670025">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="63" selection-start="351" selection-end="351" vertical-scroll-proportion="-1.5185186">
               <folding />
             </state>
           </provider>
@@ -128,7 +158,7 @@
       <file leaf-file-name="mhead.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/mhead.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="41" selection-start="219" selection-end="219" vertical-scroll-proportion="-2.4074075">
+            <state line="5" column="2" selection-start="286" selection-end="286" vertical-scroll-proportion="-3.3333333">
               <folding />
             </state>
           </provider>
@@ -137,7 +167,7 @@
       <file leaf-file-name="BookAdd.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back/BookAdd.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="92" selection-start="1699" selection-end="1699" vertical-scroll-proportion="-7.3703704">
+            <state line="4" column="2" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,34 +176,25 @@
       <file leaf-file-name="BookAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
+            <state line="22" column="14" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BackAction.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BackAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BackAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="42" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.42481202">
+            <state line="35" column="35" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bhead.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back/bhead.jsp">
+      <file leaf-file-name="BookBiz.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/biz/BookBiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="351" selection-end="351" vertical-scroll-proportion="-6.4074073">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TBook.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/entity/TBook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+            <state line="27" column="4" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -189,22 +210,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/atguigu/bk/dao/TestBookDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/dao/BookDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/login.jsp" />
-        <option value="$PROJECT_DIR$/etc/spring_sources/org/springframework/web/servlet/DispatcherServlet.java" />
         <option value="$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/HttpServletBean.java" />
         <option value="$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/FrameworkServlet.java" />
         <option value="$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java" />
         <option value="$PROJECT_DIR$/etc/tomcat_sources/apache-tomcat-6.0.35-src/java/javax/servlet/http/HttpServlet.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/mhead.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/UserAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back/bhead.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BackAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back/BookAdd.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/biz/BookBiz.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/error/OverMaxUploadSize.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error/OverMaxUploadSize.jsp" />
       </list>
     </option>
   </component>
@@ -255,7 +276,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="839" />
+    <option name="x" value="737" />
     <option name="width" value="1720" />
     <option name="height" value="1040" />
   </component>
@@ -292,8 +313,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -614,42 +633,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -668,9 +655,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -789,8 +776,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 6.0">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+    <configuration default="false" name="main.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 6.0">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/views/main/main.jsp" />
       <deployment>
         <artifact name="BookStore:war exploded">
           <settings>
@@ -799,7 +786,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_BookStore_53" />
+        <option name="BASE_DIRECTORY_NAME" value="main_jsp_BookStore" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -807,12 +794,8 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="5117" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -830,6 +813,47 @@
       <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="BookStore:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 6.0">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="BookStore:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_BookStore_58" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BookStore:war" />
         </option>
       </method>
     </configuration>
@@ -869,6 +893,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -895,19 +932,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1034,18 +1058,19 @@
         </option>
       </method>
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 6.0" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TestBookDao" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.TestBookDao.testGetBookPic" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.main.jsp" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
         <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
-        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.main.jsp" />
         <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
         <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
       </list>
@@ -1104,7 +1129,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="839" y="0" width="1720" height="1040" extended-state="0" />
+    <frame x="737" y="0" width="1720" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1112,7 +1137,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35876992" sideWeight="0.49934298" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35876992" sideWeight="0.49934298" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32816228" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1126,7 +1151,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298292" sideWeight="0.67172897" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32801822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939467" sideWeight="0.64123005" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939467" sideWeight="0.67312074" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32687926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299045" sideWeight="0.64675987" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1205,114 +1230,108 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookPicSvl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="16" selection-start="468" selection-end="468" vertical-scroll-proportion="0.065868266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="60" selection-start="1828" selection-end="1828" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="534" selection-end="534" vertical-scroll-proportion="-0.28458497">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/mhead.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="219" selection-end="219" vertical-scroll-proportion="-2.4074075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="388" selection-end="388" vertical-scroll-proportion="-7.3333335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.9.RELEASE/spring-web-3.2.9.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="370" selection-end="370" vertical-scroll-proportion="0.5987526">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/entity/TBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="11" selection-start="370" selection-end="370" vertical-scroll-proportion="0.5987526" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.9.RELEASE/spring-web-3.2.9.RELEASE.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.23504274">
+        <state line="20" column="0" selection-start="1388" selection-end="1388" vertical-scroll-proportion="0.23504274" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/back/BookAddSvl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="43" selection-start="3027" selection-end="3027" vertical-scroll-proportion="1.9565217" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/entity/TBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="98" selection-end="98" vertical-scroll-proportion="0.10625738">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back/bhead.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="351" selection-end="351" vertical-scroll-proportion="-6.4074073">
+        <state line="5" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.1097561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/back/BookAddSvl.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="43" selection-start="3027" selection-end="3027" vertical-scroll-proportion="1.9565217">
+        <state line="78" column="20" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.5525384">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/biz/BookBiz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back/BookAdd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="92" selection-start="1699" selection-end="1699" vertical-scroll-proportion="-7.3703704">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
+        <state line="27" column="4" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BackAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="42" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.42481202">
+        <state line="35" column="35" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="14" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back/BookAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="228" selection-end="228" vertical-scroll-proportion="-2.6666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error/OverMaxUploadSize.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="47" selection-start="388" selection-end="388" vertical-scroll-proportion="-7.3333335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="63" selection-start="351" selection-end="351" vertical-scroll-proportion="-1.5185186">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/mhead.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="286" selection-end="286" vertical-scroll-proportion="-3.3333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="31" selection-start="383" selection-end="383" vertical-scroll-proportion="0.22670025">
           <folding />
         </state>
       </provider>

@@ -10,7 +10,7 @@ import com.atguigu.bk.util.Log;
 public class BookBiz {
 	
 	/**
-	 * 
+	 * 添加书籍
 	 * @param book
 	 * @throws Exception
 	 */
@@ -28,7 +28,7 @@ public class BookBiz {
 	
 	
 	/**
-	 * ��ҳ��ʾ������ͼ����Ϣ
+	 * 获取所有的书籍信息
 	 * @return
 	 * @throws Exception
 	 */

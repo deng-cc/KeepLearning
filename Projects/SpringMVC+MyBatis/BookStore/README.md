@@ -74,7 +74,7 @@ e.g.
 之前也有提到，DispatcherServlet不作为请求的处理，而是控制，这里它会进行一个容器的初始化，包括容器中的Controller、HandlerMapping、ViewResolver等。
 <br>
 在源码中，大致的流程如下图（同时可参考源码中的origin注释）：
-<img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_dispatcherAndApplicationContext.jpg?raw=true" width="900"  />
+<img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_dispatcherAndApplicationContext.jpg?raw=true" width="850"  />
 <br>
 
 ## 3）SpringMVC核心架构图
@@ -180,7 +180,7 @@ DispatcherServlet本质来说就是一个Servlet，那么其核心的方法servi
 <br>
 下面我们来看下相关的时序图：
 <br>
-<img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_workflow_SequenceDiagram.jpg?raw=true" width="900"  />
+<img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_workflow_SequenceDiagram.jpg?raw=true" width="850"  />
 <br>
 
 
@@ -196,6 +196,7 @@ MVC模型，正确的流程应该是 `客户端请求-->Controller-->View-->客�
 当然，这种做法也是褒贬不一，有好处也有坏处。
 
  - [讨论：关于jsp页面是放在webroot目录下和web-inf下优缺点][4]
+ <br>
  <br>
  
  
@@ -303,6 +304,54 @@ enctype 属性规定在发送到服务器之前应该如何对表单数据进行
         return result;
     }
 ```
+
+## 7）异常处理
+### 7.1 信息不得为null的解决方案
+- 在前端给该处信息设置一个默认值（该方法不完善，在显示时删除后提交依然会错误）。
+<br>
+
+### 7.2 spring提供的异常解析器SimpleMappingExceptionResolver
+在spring-mvc.xml中配置spring的异常解析器
+
+``` stylus
+<!--异常解析器-->
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <!--hint：出现异常未处理，会存到exception中，跳转到相应页面。可以在error.jsp中使用${exception.message}取出-->
+                <!--捕获所有异常，Throwable，意味着就算代码部分我们没有catch异常，这个异常解析器也会处理-->
+                <prop key="java.lang.Throwable">/error.jsp</prop>
+
+                <!--捕获特定异常，内容超出范围异常的对应跳转-->
+                <prop key="org.springframework.web.multipart.MaxUploadSizeExceededException">/error/OverMaxUploadSize.jsp</prop>
+            </props>
+        </property>
+    </bean>
+```
+如上，<br>
+出现文件上传大小超出最大限制，跳转到OverMaxUploadSize.jsp；<br>
+出现其他异常（属于Throwable），跳转到error.jsp。
+<br>
+
+### 7.3 信息校验的两种处理方式
+#### 7.3.1 前台处理
+在用户提交表单之前，将表单的信息在前台使用JS进行数据校验，符合格式和要求以后才运行进行提交。这种方式可以减少对服务器频繁访问的压力，而7.3.2和7.3.3都是在服务器端处理异常。<br>
+这种方式准确地讲类似于先预防异常，而后两种是不预防，但是有处理方法。
+<br>
+
+#### 7.3.2 异常捕获 + spring
+这个方法可以结合7.2中，引入spring的异常解析器，可以单独配置不同种类的异常错误页面；或者，不太友好地直接设置Throwable，统一跳转到error.jsp。
+<br>
+
+#### 7.3.3 异常捕获
+在Action中捕获异常进行处理和跳转，异常信息存储到request，或根据情景进行调整。
+
+
+
+
+
+
+
 
 
 

@@ -20,5 +20,19 @@
         <property name="maxUploadSize" value="102400" /><!--最大上传量为100k-->
     </bean>
 
+    <!--异常解析器-->
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <!--hint：出现异常未处理，会存到exception中，跳转到相应页面。可以在error.jsp中使用${exception.message}取出-->
+                <!--捕获所有异常，Throwable，意味着就算代码部分我们没有catch异常，这个异常解析器也会处理-->
+                <prop key="java.lang.Throwable">/error.jsp</prop>
+
+                <!--捕获特定异常，内容超出范围异常的对应跳转-->
+                <prop key="org.springframework.web.multipart.MaxUploadSizeExceededException">/error/OverMaxUploadSize.jsp</prop>
+            </props>
+        </property>
+    </bean>
+
 
 </beans>
