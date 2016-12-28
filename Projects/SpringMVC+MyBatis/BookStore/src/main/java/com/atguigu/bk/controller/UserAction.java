@@ -14,6 +14,11 @@ import javax.servlet.http.HttpSession;
 @RequestMapping(value = "/user")
 public class UserAction {
 
+    /**
+     * 用户登出
+     * @param session
+     * @return
+     */
     @RequestMapping(value = "/logout")
     //hint: 通过方法参数，直接注入HttpSession
     public String logout(HttpSession session) {
@@ -22,6 +27,10 @@ public class UserAction {
         return "redirect:/book/main.do";
     }
 
+    /**
+     * GET请求到达用户登录页面
+     * @return
+     */
     //hint: doGet方法（和doPost方法分离）
     @RequestMapping(value="/login", method = RequestMethod.GET)
     public String login() {
@@ -29,6 +38,13 @@ public class UserAction {
     }
 
 
+    /**
+     * 用户登录
+     * @param uname
+     * @param pwd
+     * @param request
+     * @return
+     */
     //hint: doPost方法
     @RequestMapping(value="/login", method = RequestMethod.POST)
     public String login(String uname, String pwd, HttpServletRequest request) {

@@ -8,9 +8,17 @@
     
     <context:component-scan base-package="com.atguigu.bk.controller" />
     <!--hint: 如果不采用注解方式，则对于地址映射需要在此以bean的形式进行配置-->
-    
+
+    <!--视图解析器-->
     <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views"></property>
     </bean>
+
+    <!--文件解析器-->
+    <!--hint：为了能够保证spring能解析上传的文件-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="102400" /><!--最大上传量为100k-->
+    </bean>
+
 
 </beans>

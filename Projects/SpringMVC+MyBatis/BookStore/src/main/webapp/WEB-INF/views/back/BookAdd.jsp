@@ -28,7 +28,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       <tr><td align="left"><h2>新书上架</h2></td></tr>
       <tr>
       	<td>
-      	<form action="<%=basePath%>back/BookAddSvl" method="post" enctype="multipart/form-data">
+      	<form action="<%=basePath%>back/addBook.do" method="post" enctype="multipart/form-data">
       		<table border="0" width=60% align="center">  		
       		
       			<tr><td>书号ISBN</td><td><input type="text" name="isbn"/></td></tr>
@@ -36,8 +36,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
        			<tr><td>出版社</td><td><input type="text" name="press"/></td></tr>
        			<tr><td>出版日期</td><td><input type="text" name="pdate" class="easyui-datebox"/></td></tr>
        			<tr><td>价格</td><td><input type="text" name="price" class="easyui-numberbox" value=0 precision="2"/></td></tr>
-       			<tr><td>图片上传</td><td><input type="file" name="pic"/></td></tr>
-       			<tr><td colspan=2 align=center><input type=submit value=提交 />${msg}</td></tr>
+       			<tr><td>图片上传</td><td><input type="file" name="pic2"/></td></tr>
+       			<tr><td colspan=2 align=center><input type=submit value=提交 /></td></tr>
+                ${msg}
     		</table>
     	</form>
       	</td>

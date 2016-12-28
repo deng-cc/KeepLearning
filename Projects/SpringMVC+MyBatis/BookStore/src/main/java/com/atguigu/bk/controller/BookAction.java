@@ -45,6 +45,12 @@ public class BookAction {
         return result;
     }
 
+    /**
+     * 根据书籍编号，获取书籍的封面图片
+     * @param isbn
+     * @param request
+     * @return 书籍封面图片的字节流byte[]
+     */
     @RequestMapping("/pic")
     @ResponseBody
     //hint: 方法返回的数据直接写到http body中，返回的不是view的名字
