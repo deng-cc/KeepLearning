@@ -8,6 +8,7 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.9.RELEASE/spring-web-3.2.9.RELEASE-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/etc/spring_sources/spring-web-3.2.9.RELEASE-sources" />
     </SOURCES>
   </library>
 </component>

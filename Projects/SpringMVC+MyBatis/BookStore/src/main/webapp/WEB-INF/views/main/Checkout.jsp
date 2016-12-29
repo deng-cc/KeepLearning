@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="gbk"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c"  uri="http://java.sun.com/jsp/jstl/core" %>
 <%
 String path = request.getContextPath();
@@ -24,7 +24,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-   <form action="<%=basePath%>PayMoneySvl" method="post">
+   <form action="<%=basePath%>/user/payMoney.do" method="post">
 	<table align="center" width=90%>
       <tr>
       	<td align=right>
@@ -34,17 +34,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       <tr>
       	<td>
       		<table border="1" width=100%> 
-      			<tr><td>ÊéÃû</td><td>³ö°æÉç</td><td>ÉÌÆ·¼Û¸ñ</td><td width="5%">ÊıÁ¿</td></tr>		       
+      			<tr><td>ä¹¦å</td><td>å‡ºç‰ˆç¤¾</td><td>å•†å“ä»·æ ¼</td><td width="5%">æ•°é‡</td></tr>		       
        			   <c:forEach var="bk" items="${books}">  				
-       				    <tr><td>${bk.bname}</td><td>${bk.press}</td><td>${bk.price}</td><td >${bk.buyCount}±¾</tr>
+       				    <tr><td>${bk.bname}</td><td>${bk.press}</td><td>${bk.price}</td><td >${bk.buyCount}æœ¬</tr>
        			    </c:forEach>
-      			    <tr><td colspan=4 align=center>ÕË»§Óà¶î£º£¤${user.account}  &nbsp;&nbsp;&nbsp;&nbsp; ÉÌÆ·×Ü¼Û£º£¤${allMoney}</td></tr>
+      			    <tr><td colspan=4 align=center>è´¦æˆ·ä½™é¢ï¼šï¿¥${user.account}  &nbsp;&nbsp;&nbsp;&nbsp; å•†å“æ€»ä»·ï¼šï¿¥${allMoney}</td></tr>
       			    <tr><td><input type="hidden"  name="allMoney" value="${allMoney}" /></td></tr>
     		</table>
       	</td>
       </tr>
       <tr>      	
-      		<td align="center"><input type="submit" value="¸¶¿îÈ·ÈÏ"> &nbsp; <a href="#">·µ»Ø</a></td>        	
+      		<td align="center"><input type="submit" value="ä»˜æ¬¾ç¡®è®¤"> &nbsp; <a href="/user/showShopCar.do">è¿”å›</a></td>
       </tr>
     
     </table>

@@ -33,11 +33,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   		<tr>
   		<td>
   			<table border="1" width=100%>        			
-       			<tr><td rowspan=3><img width=100 height=100 src="<%=basePath%>BookPicSvl?isbn=${book.isbn}"/></td><td colspan=2 align=center style="color:red">${book.bname}</td></tr>
+       			<tr><td rowspan=3><img width=100 height=100 src="<%=basePath%>/book/pic.do?isbn=${book.isbn}"/></td>
+                    <td colspan=2 align=center style="color:red">${book.bname}</td>
+                </tr>
        			<tr><td>商品价格</td><td>${book.price}</td></tr>
        			<tr><td>出版社</td><td>${book.press}</td></tr>
        			<tr><td height=300 colspan=3>ddd 发反反复复生物污染trddddddddddddy大的；临渴掘井</td></tr>
-       			<tr><td colspan=3 align=center><a href="<%=basePath%>ShopCarAddSvl?isbn=${book.isbn}">加入购物车</a> &nbsp; <a href="<%=basePath%>MainSvl">返回</a></td></tr>	
+       			<tr>
+                    <td colspan=3 align=center><a href="<%=basePath%>/user/addShopCar.do?isbn=${book.isbn}">加入购物车</a>
+                    &nbsp; <a href="<%=basePath%>/book/main.do">返回</a>
+                    </td>
+                </tr>
     		</table>
   		
   		</td>

@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="gbk"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -27,31 +27,31 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       <tr>
       	<td align=right>
       	   
-      	  		welcome you tom &nbsp;<a href="#">���ﳵ</a>
-      	  		&nbsp;<a href="#">�˳�</a> 
+      	  		welcome you tom &nbsp;<a href="#">购物车</a>
+      	  		&nbsp;<a href="#">退出</a> 
       	   
-      	    	<a href="#">��¼</a>      	   
-      			<a href="#">��̨</a>
+      	    	<a href="#">登录</a>      	   
+      			<a href="#">后台</a>
       			
       	</td>
       </tr>
       <tr>
       	<td>
       		<table border="1" width=100%> 
-			    <tr><td align=center colspan=4><font color="red;size=18">����ɹ������ǻᾡ��Ϊ���������� </font><br>��������Ϊ���Ĺ�����Ϣ </td></tr>
-      			<tr><td>����</td><td>����</td><td>��Ʒ�۸�</td><td width="5%">����</td></tr>		       
-       			     				
-       				<tr><td>�����</td><td>˾����</td><td>38.5</td><td >5��</tr>    
+			    <tr><td align=center colspan=4><font color="red;size=18">付款成功！我们会尽快为您进行配送 </font><br>如下内容为您的购买信息 </td></tr>
+      			<tr><td>书名</td><td>作者</td><td>商品价格</td><td width="5%">数量</td></tr>		       
+       			     <!--todo 待完善-->
+       				<tr><td>红与黑</td><td>司汤达</td><td>38.5</td><td >5本</tr>    
 					
-					<tr><td>ս�����ƽ</td><td>�ж�˹̩</td><td>26.3</td><td>1��</td></tr>   
+					<tr><td>战争与和平</td><td>托尔斯泰</td><td>26.3</td><td>1本</td></tr>   
        			
-      			    <tr><td colspan=4 align=center>�˻�����128.5  &nbsp;&nbsp;&nbsp;&nbsp; ��Ʒ�ܼۣ���231.6</td></tr>
+      			    <tr><td colspan=4 align=center>账户余额：￥128.5  &nbsp;&nbsp;&nbsp;&nbsp; 商品总价：￥231.6</td></tr>
     		</table>
       	</td>
       </tr>
       <tr>
       	
-      		<td align="center"> <a href="<%=basePath%>MainSvl">������ҳ</a></td>
+      		<td align="center"> <a href="<%=basePath%>/book/main.do">返回主页</a></td>
         	
       </tr>
     

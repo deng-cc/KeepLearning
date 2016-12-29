@@ -18,14 +18,14 @@ import java.util.List;
 public class BookAction {
 
     /**
-     * 主页显示，所有图书信息
+     * 显示所有图书信息
      * @param model
      * @return
      */
     @RequestMapping("/main")
-    //todo index.jsp中跳转/book/main.do，出发dispatcherServlet;
-    //todo 地址默认交给beanNameUrlHandlerMapping处理，去找/开头的bean，即找到了此处的/book/main?
-    //todo 所以，是哪里默认的 .do可以被消掉？经验证，也可以是@RequestMapping("/main.do")
+    //todo 1 index.jsp中跳转/book/main.do，出发dispatcherServlet;
+    //todo 1 地址默认交给beanNameUrlHandlerMapping处理，去找/开头的bean，即找到了此处的/book/main?
+    //todo 1 所以，是哪里默认的 .do可以被消掉？经验证，也可以是@RequestMapping("/main.do")
     public String getAllBooks(Model model) { //hint: 形参为Model类，spring提供
         //hint: HandlerAdapter --> 处理器功能处理方法的调用 返回ModelAndView
         String result = null;
@@ -44,6 +44,7 @@ public class BookAction {
 
         return result;
     }
+
 
     /**
      * 根据书籍编号，获取书籍的封面图片
@@ -69,5 +70,53 @@ public class BookAction {
         }
 
         return pic;
+    }
+
+
+    /**
+     * 获取某本书的详细信息
+     * @param isbn
+     * @return
+     */
+    /*
+    //todo 2 Model用来替代request也是可行的，所以为什么不用Model？
+    @RequestMapping("/bookDetail")
+    public String bookDetail(@RequestParam("isbn") String isbn, Model model) {
+        String result = null;
+        if (isbn != null) {
+            BookBiz bookBiz = new BookBiz();
+            try {
+                TBook book = bookBiz.getBookDetail(isbn);
+                model.addAttribute("book", book);
+                result = "/main/BookDetail.jsp";
+            } catch (Exception e) {
+                Log.logger.error(e.getMessage());
+                result = "/error.jsp";
+            }
+        } else {
+            result = "/error.jsp";
+        }
+        return result;
+    }
+    */
+    @RequestMapping("/bookDetail")
+    public String bookDetail(@RequestParam("isbn") String isbn, HttpServletRequest request) {
+        String result = null;
+        if (isbn != null) {
+            BookBiz bookBiz = new BookBiz();
+            try {
+                TBook book = bookBiz.getBookDetail(isbn);
+                request.setAttribute("book", book);
+                result = "/main/BookDetail.jsp";
+            } catch (Exception e) {
+                Log.logger.error(e.getMessage());
+                request.setAttribute("msg", "网络异常，请和管理员联系");
+                result = "/error.jsp";
+            }
+        } else {
+            request.setAttribute("msg", "网络异常，请和管理员联系");
+            result = "/error.jsp";
+        }
+        return result;
     }
 }

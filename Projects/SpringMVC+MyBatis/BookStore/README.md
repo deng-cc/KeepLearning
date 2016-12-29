@@ -1,14 +1,6 @@
-[概况](#概况)<br>
-[关于Tag和todo](#关于tag和todo)<br>
-[项目收获小结](#项目收获小结)
-- [1）SpringMVC的基本模型](#1springmvc的基本模型)
-- [2）DispatcherServlet和ApplicationContext](#2dispatcherservlet和applicationcontext)
-- [3）Spring核心架构图](#3springmvc核心架构图)
-- [4）如何让jsp页面更安全](#4如何让jsp页面更安全)
-- [5）存储和读取图片的两种方式](#5存储和读取图片的两种方式)
-- [6）文件上传的处理的几个步骤](#6文件上传的处理的几个步骤)
-- (目录待修订)
-<br>
+关于目录，强推该插件：https://github.com/summerblue/github-toc#toc4
+
+
 
 # 概况
 该项目为实现一个简单的网上书店demo，涉及不同权限登录、书籍形成购买记录（类似订单）、后台书籍增删改查等。初始结构采用了jsp+servlet+jdbc的形式，分三次大步骤最终将该项目转化为jsp+springMVC+MyBatis的形式。
@@ -74,7 +66,7 @@ e.g.
 之前也有提到，DispatcherServlet不作为请求的处理，而是控制，这里它会进行一个容器的初始化，包括容器中的Controller、HandlerMapping、ViewResolver等。
 <br>
 在源码中，大致的流程如下图（同时可参考源码中的origin注释）：
-<img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_dispatcherAndApplicationContext.jpg?raw=true" width="850"  />
+<img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_dispatcherAndApplicationContext.jpg?raw=true" width="800"  />
 <br>
 
 ## 3）SpringMVC核心架构图
@@ -180,12 +172,8 @@ DispatcherServlet本质来说就是一个Servlet，那么其核心的方法servi
 <br>
 下面我们来看下相关的时序图：
 <br>
-<img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_workflow_SequenceDiagram.jpg?raw=true" width="850"  />
+<img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_workflow_SequenceDiagram.jpg?raw=true" width="800"  />
 <br>
-
-
-
-
 <br>
 
 ## 4）如何让jsp页面更安全
@@ -236,10 +224,12 @@ MVC模型，正确的流程应该是 `客户端请求-->Controller-->View-->客�
     }
 ```
 <br>
+<br>
 
 ## 6）文件上传的处理的几个步骤
 ### 6.1 表单属性的设定<br>
-&lt;form action="<%=basePath%>back/BookAddSvl" method="post" **enctype="multipart/form-data"**&gt; <br>
+&lt;form action="<%=basePath%>back/BookAddSvl" method="post" **enctype="multipart/form-data"**&gt; 
+<br>
 
 enctype 属性规定在发送到服务器之前应该如何对表单数据进行编码。
 
@@ -247,7 +237,8 @@ enctype 属性规定在发送到服务器之前应该如何对表单数据进行
 在发送前编码所有字符（默认）
 
 - multipart/form-data	
-不对字符编码。**在使用包含文件上传控件的表单时，必须使用该值**。<br>
+不对字符编码。**在使用包含文件上传控件的表单时，必须使用该值**。
+<br>
 （这表示，信息以文字和字节混合提交，所以是multipart）
 
 - text/plain
@@ -255,12 +246,13 @@ enctype 属性规定在发送到服务器之前应该如何对表单数据进行
 <br>
 
 ### 6.2 input的类型
-&lt;input **type="file"** name="pic"&gt; <br>
+&lt;input **type="file"** name="pic"&gt;
+<br>
 
 ### 6.3 文件上传的解析
 - 传统方式一般使用smartupload.jar进行文件上传的解析
 - apache的方式，使用commons-fileupload.jar + commons-io.jar
-
+<br>
 
 ### 6.4 spring中文件解析器的配置
 
@@ -270,7 +262,7 @@ enctype 属性规定在发送到服务器之前应该如何对表单数据进行
         <property name="maxUploadSize" value="102400" /><!--最大上传量为100k-->
     </bean>
 ```
-
+<br>
 
 ### 6.5 Action中的方法添加MultipartFile接受参数(另，@RequestParam)
 在对图片进行接收时，图片和图书的其他信息，应该分别接收。
@@ -305,6 +297,8 @@ enctype 属性规定在发送到服务器之前应该如何对表单数据进行
     }
 ```
 
+<br>
+<br>
 ## 7）异常处理
 ### 7.1 信息不得为null的解决方案
 - 在前端给该处信息设置一个默认值（该方法不完善，在显示时删除后提交依然会错误）。
@@ -328,12 +322,10 @@ enctype 属性规定在发送到服务器之前应该如何对表单数据进行
         </property>
     </bean>
 ```
-如上，<br>
-出现文件上传大小超出最大限制，跳转到OverMaxUploadSize.jsp；<br>
-出现其他异常（属于Throwable），跳转到error.jsp。
+如上，出现文件上传大小超出最大限制，跳转到OverMaxUploadSize.jsp；出现其他异常（属于Throwable），跳转到error.jsp。
 <br>
 
-### 7.3 信息校验的两种处理方式
+### 7.3 信息校验的处理方式
 #### 7.3.1 前台处理
 在用户提交表单之前，将表单的信息在前台使用JS进行数据校验，符合格式和要求以后才运行进行提交。这种方式可以减少对服务器频繁访问的压力，而7.3.2和7.3.3都是在服务器端处理异常。<br>
 这种方式准确地讲类似于先预防异常，而后两种是不预防，但是有处理方法。

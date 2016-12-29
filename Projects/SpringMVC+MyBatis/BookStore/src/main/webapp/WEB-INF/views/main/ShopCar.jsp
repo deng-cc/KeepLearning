@@ -24,7 +24,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-   <form action="<%=basePath%>CheckoutSvl" method="post">
+   <form action="<%=basePath%>/user/checkOut.do" method="post">
     <table align="center" width=90%>
       <tr>
       	<td align=right>
@@ -43,7 +43,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       	</td>
       </tr>
       <tr>      	
-      		<td align="center"><input type="submit" value="结算"> &nbsp; <a href="<%=basePath%>MainSvl">返回</a></td>        	
+      		<td align="center"><input type="submit" value="结算"> &nbsp; <a href="<%=basePath%>/book/main.do">返回</a></td>
       </tr>    
     </table>
     </form>
