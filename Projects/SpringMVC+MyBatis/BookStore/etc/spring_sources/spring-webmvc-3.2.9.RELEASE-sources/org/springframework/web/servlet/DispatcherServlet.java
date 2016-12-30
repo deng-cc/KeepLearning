@@ -1098,6 +1098,7 @@ public class DispatcherServlet extends FrameworkServlet {
 				logger.trace(
 						"Testing handler map [" + hm + "] in DispatcherServlet with name '" + getServletName() + "'");
 			}
+            //origin 通过HandlerMapping得到HandlerExecutionChain
 			HandlerExecutionChain handler = hm.getHandler(request);
 			if (handler != null) {
 				return handler;

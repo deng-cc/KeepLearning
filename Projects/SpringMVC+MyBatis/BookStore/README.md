@@ -70,6 +70,7 @@ e.g.
 <br>
 
 ## 3）SpringMVC核心架构图
+### 3.1 核心架构图的核心流程
 <img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_workflow.jpg?raw=true" width="700"  /><br>
 在DispatcherServlet和ApplicationContext中我们已经了解到了，DispatcherServlet的初始化和容器初始化的关系，那么请求到达DispatcherServlet，再由其发往我们自己写的Action的过程，又是怎样？
 <br>
@@ -173,8 +174,74 @@ DispatcherServlet本质来说就是一个Servlet，那么其核心的方法servi
 下面我们来看下相关的时序图：
 <br>
 <img src="https://github.com/deng-cc/KeepLearning/blob/master/pics/spring/springMVC_workflow_SequenceDiagram.jpg?raw=true" width="800"  />
+
+### 3.2 核心流程中的doDispatch()和拦截器
+
+`DispatcherServlet --> service() --> processRequest() --> doService() --> doDispatch()`
+由上，我们看到大体的核心流程。那么我们聊一聊在这个关键方法doDispatch()里面发生的事情。<br>
+那么在这个方法中，做了以下几个核心步骤：<br>
+
+1. 通过HandlerMapping的getHandler()获取HandlerExecutionChain mappedHandler
+（需要在xml中配置相关的HandlerMapping，用以解析URL）
+
+2. 将HandlerExecutionChain作为参数，获得HandlerAdapter
+（需要在xml中配置HandlerMapping对应的HandlerAdapter，用以适配Controller）
+``` stylus
+HandlerAdapter ha = getHandlerAdapter(mappedHandler.getHandler());
+```
+
+3. applyPreHandle()执行前置拦截器，调用拦截器的preHandle()
+（如果有自定义拦截器，需要在xml中配置）
+
+4. 调用HandlerAdapter的handle() --> 驱动真正的action（我们自定义的Controller）
+
+5. applyPostHandle()执行后置拦截器
+
+6. processDispatchResult()
+—6.1 render( ModelAndView mv, HttpServletRequest request, HttpServletResponse response )
+——6.1.1 resolveViewName()
+———6.1.1.1 viewResolver.resolveViewName() 调用视图解析器解析视图
+——6.1.2 render() 传递
+
+<br>
+关于以上1、2、3点，结合项目中xml代码如下：
+``` stylus
+<!--映射器、适配器，和拦截器-->
+    <bean id="handlerMapping" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">
+    <!--hint：RequestMappingHandlerMapping，实现了HandlerMapping接口，重要方法HandlerExecutionChain getHandler(HttpServletRequest request)-->
+    <!--
+    hint：在未配置该handlerMapping之前，程序也正常，原因在于：
+    hint：1）多个映射器可以并存，前端控制器判断url能让哪些映射器映射，就让正确的映射器处理；
+    hint：2）默认加载的处理器映射器有两个：第一个是根据Bean的名字URL的映射器，第二个是默认的注解处理器映射器
+    hint：3）所以要配置配套的映射器和适配器，也可以用<mvc:annotation-driven />自动加载加载RequestMappingHandlerMapping和RequestMappingHandlerAdapter
+    -->
+        <property name="interceptors">
+            <list>
+                <ref bean="officeHoursInterceptor"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="officeHoursInterceptor" class="com.atguigu.bk.intercept.TimeBaseAccessInterceptor">
+        <property name="openingTime" value="9"></property>
+        <property name="closingTIme" value="18"></property>
+    </bean>
+
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"></bean>
+```
+参考链接：<br>
+[SpringMVC从入门到精通之第三章][4]
+[springMVC学习笔记(二)-----注解和非注解入门小程序][5]
+
+### 3.3 SpringMVC的几个优点总结
+- JSP页面可以放在WEB-INF下，增加安全性，强化MVC编程模型；
+- 使用annotation与http请求对应，清晰直观；
+- 参数传递非常灵活，Struts2往往使用值栈，Action中存在成员变量（e.g. Person person），因为如此，Struts2的Action不能做成单例。SpringMVC的Action就可以做成单例模式，放在了Spring容器中；
+- 非常出色的异常处理机制（见[异常处理](#7异常处理)）；
+- 支持多种视图的显示，扩展性强；
+
 <br>
 <br>
+
 
 ## 4）如何让jsp页面更安全
 MVC模型，正确的流程应该是 `客户端请求-->Controller-->View-->客户端`，但是我们可以通过浏览器地址的方式直接访问jsp，而页面往往需要数据填充，也就是说我们这样直接访问，会出现错误。
@@ -183,7 +250,7 @@ MVC模型，正确的流程应该是 `客户端请求-->Controller-->View-->客�
 
 当然，这种做法也是褒贬不一，有好处也有坏处。
 
- - [讨论：关于jsp页面是放在webroot目录下和web-inf下优缺点][4]
+ - [讨论：关于jsp页面是放在webroot目录下和web-inf下优缺点][6]
  <br>
  <br>
  
@@ -339,17 +406,9 @@ enctype 属性规定在发送到服务器之前应该如何对表单数据进行
 在Action中捕获异常进行处理和跳转，异常信息存储到request，或根据情景进行调整。
 
 
-
-
-
-
-
-
-
-
-
-
   [1]: http://jinnianshilongnian.iteye.com/blog/1594806
   [2]: http://ju.outofmemory.cn/entry/257271
   [3]: http://www.cnblogs.com/duanxz/p/3755788.html
-  [4]: http://bbs.csdn.net/topics/320097731
+  [4]: http://www.imooc.com/article/4293
+  [5]: http://www.cnblogs.com/selene/p/4771671.html
+  [6]: http://bbs.csdn.net/topics/320097731

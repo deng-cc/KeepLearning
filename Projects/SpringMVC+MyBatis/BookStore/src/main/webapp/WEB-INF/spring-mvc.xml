@@ -34,5 +34,26 @@
         </property>
     </bean>
 
+    <!--映射器、适配器，和拦截器-->
+    <bean id="handlerMapping" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">
+    <!--hint：RequestMappingHandlerMapping，实现了HandlerMapping接口，重要方法HandlerExecutionChain getHandler(HttpServletRequest request)-->
+    <!--
+    hint：在未配置该handlerMapping之前，程序也正常，原因在于：
+    hint：1）多个映射器可以并存，前端控制器判断url能让哪些映射器映射，就让正确的映射器处理；
+    hint：2）默认加载的处理器映射器有两个：第一个是根据Bean的名字URL的映射器，第二个是默认的注解处理器映射器
+    hint：3）所以要配置配套的映射器和适配器，也可以用<mvc:annotation-driven />自动加载加载RequestMappingHandlerMapping和RequestMappingHandlerAdapter
+    -->
+        <property name="interceptors">
+            <list>
+                <ref bean="officeHoursInterceptor"/>
+            </list>
+        </property>
+    </bean>
+    <bean id="officeHoursInterceptor" class="com.atguigu.bk.intercept.TimeBaseAccessInterceptor">
+        <property name="openingTime" value="9"></property>
+        <property name="closingTIme" value="18"></property>
+    </bean>
+
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"></bean>
 
 </beans>

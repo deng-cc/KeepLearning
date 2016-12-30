@@ -6,21 +6,20 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482896046698" ignored="false" />
     <file path="/db.properties" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482297403703" ignored="false" />
-    <file path="/a.dummy" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1483026496784" ignored="false" />
+    <file path="/a.dummy" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1483027391950" ignored="false" />
     <file path="/fragment.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482727790270" ignored="false" />
     <file path="/web.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482473074297" ignored="false" />
     <file path="/BookAction.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482916154251" ignored="false" />
-    <file path="/spring-mvc.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482901830140" ignored="false" />
+    <file path="/spring-mvc.xml" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1483077839644" ignored="false" />
     <file path="/index.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482683049491" ignored="false" />
     <file path="/main.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482915303008" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/atguigu/bk/enums/RoleEnum.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482678307458" ignored="false" />
-    <file path="$PROJECT_DIR$/src/main/java/com/atguigu/bk/biz/UserBiz.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482678307458" ignored="false" />
     <file path="/BookDao.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482731503415" ignored="false" />
     <file path="/TestBookDao.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482734160287" ignored="false" />
     <file path="/mhead.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482983253343" ignored="false" />
     <file path="/UserAction.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1483026748551" ignored="false" />
     <file path="/login.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482740306198" ignored="false" />
-    <file path="/DispatcherServlet.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482838545056" ignored="false" />
+    <file path="/DispatcherServlet.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1483069142787" ignored="false" />
     <file path="/HttpServletBean.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482807737941" ignored="false" />
     <file path="/FrameworkServlet.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482828820733" ignored="false" />
     <file path="/HttpServlet.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1482828483007" ignored="false" />
@@ -34,6 +33,9 @@
     <file path="/ShopCar.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1483026317088" ignored="false" />
     <file path="/Checkout.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1483025795635" ignored="false" />
     <file path="/PaySuccess.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1483027103790" ignored="false" />
+    <file path="/TimeBaseAccessInterceptor.java" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1483066048240" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/webapp/outsideOfficeHours.jsp" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1483065603029" ignored="false" />
+    <file path="/outsideOfficeHours.html" changelist="a9ef3326-92ec-4030-8ed3-8dbd95861bed" time="1483067171723" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,8 +139,47 @@
       <file leaf-file-name="spring-mvc.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+            <state line="50" column="11" selection-start="2439" selection-end="2439" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="163" column="62" selection-start="6707" selection-end="6707" vertical-scroll-proportion="-12.766666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DispatcherServlet.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="922" column="17" selection-start="41801" selection-end="41801" vertical-scroll-proportion="0.8625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandlerExecutionChain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/HandlerExecutionChain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="34" selection-start="2426" selection-end="2433" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#6774#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,57 +193,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaySuccess.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/PaySuccess.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="11" selection-start="848" selection-end="848" vertical-scroll-proportion="0.15867159">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BackAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="49" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/main.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="8" selection-start="825" selection-end="825" vertical-scroll-proportion="-10.111111">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookDetail.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/BookDetail.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="70" selection-start="1604" selection-end="1604" vertical-scroll-proportion="-12.777778">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserAction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/UserAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="29" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#3256#3272#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Checkout.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/Checkout.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="8" selection-start="829" selection-end="829" vertical-scroll-proportion="-8.925926">
+            <state line="228" column="54" selection-start="7771" selection-end="7771" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -218,11 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BackAction.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back/BookAdd.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/biz/BookBiz.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/error/OverMaxUploadSize.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error/OverMaxUploadSize.jsp" />
@@ -234,6 +223,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/ShopCar.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/UserAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/PaySuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/outsideOfficeHours.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/bk/intercept/TimeBaseAccessInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/outsideOfficeHours.html" />
+        <option value="$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml" />
       </list>
     </option>
   </component>
@@ -284,8 +278,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="807" />
-    <option name="y" value="9" />
+    <option name="x" value="784" />
+    <option name="y" value="6" />
     <option name="width" value="1720" />
     <option name="height" value="1033" />
   </component>
@@ -329,6 +323,50 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="BookStore" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-webmvc:3.2.9.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-webmvc-3.2.9.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.springframework:spring-webmvc:3.2.9.RELEASE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-webmvc-3.2.9.RELEASE.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -609,71 +647,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="intercept" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookStore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookStore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="back" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -690,7 +694,8 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="File.Encoding" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/etc/spring_sources/spring-web-3.2.9.RELEASE-sources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../workspace4IDEA/20161009/md2spring_mvc" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -869,7 +874,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_BookStore_63" />
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_BookStore_65" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -1171,13 +1176,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="807" y="9" width="1720" height="1033" extended-state="0" />
+    <frame x="784" y="6" width="1720" height="1033" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272101" sideWeight="0.49934298" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35876992" sideWeight="0.49934298" order="3" side_tool="false" content_ui="tabs" />
@@ -1200,6 +1204,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272101" sideWeight="0.49934298" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1272,72 +1277,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/BookDetailSvl.java">
+    <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/handler/AbstractHandlerMethodMapping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="17" selection-start="827" selection-end="827" vertical-scroll-proportion="0.57857144">
-          <folding />
-        </state>
+        <state line="55" column="70" selection-start="2112" selection-end="2112" vertical-scroll-proportion="0.42857143" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/entity/TBook.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/intercept/TimeBaseAccessInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="665" selection-end="665" vertical-scroll-proportion="0.16428572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/back/bhead.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/mhead.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="66" selection-start="383" selection-end="383" vertical-scroll-proportion="0.15498155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/CheckoutSvl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="44" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.31294963">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/ShopCar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="8" selection-start="826" selection-end="826" vertical-scroll-proportion="-0.08884688">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/PayMoneySvl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="72" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.2877698">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/Checkout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="8" selection-start="829" selection-end="829" vertical-scroll-proportion="-8.925926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="281" column="17" selection-start="9525" selection-end="9525" vertical-scroll-proportion="0.53136533">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/mvc/support/RedirectAttributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="54" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.33333334">
+        <state line="24" column="5" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1349,26 +1296,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/main.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/Checkout.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="8" selection-start="825" selection-end="825" vertical-scroll-proportion="-10.111111">
+        <state line="27" column="36" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/BookDetail.jsp">
+    <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="70" selection-start="1604" selection-end="1604" vertical-scroll-proportion="-12.777778">
+        <state line="90" column="9" selection-start="3803" selection-end="3803" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#3911#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/org/apache/commons/logging/Log.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="12" selection-start="314" selection-end="314" vertical-scroll-proportion="0.31939164">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/HandlerMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="17" selection-start="2548" selection-end="2548" vertical-scroll-proportion="-0.06633907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/outsideOfficeHours.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="124" selection-end="124" vertical-scroll-proportion="0.22871664">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bk/controller/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="29" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#3256#3272#0" expanded="true" />
-          </folding>
+        <state line="228" column="54" selection-start="7771" selection-end="7771" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1379,9 +1348,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/PaySuccess.jsp">
+    <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/HandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="11" selection-start="848" selection-end="848" vertical-scroll-proportion="0.15867159">
+        <state line="60" column="12" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.32261905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="62" selection-start="6707" selection-end="6707" vertical-scroll-proportion="-12.766666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.2.9.RELEASE/spring-webmvc-3.2.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="11" selection-start="2439" selection-end="2439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/HandlerExecutionChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="34" selection-start="2426" selection-end="2433" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#6774#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/spring_sources/spring-webmvc-3.2.9.RELEASE-sources/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="922" column="17" selection-start="41801" selection-end="41801" vertical-scroll-proportion="0.8625">
           <folding />
         </state>
       </provider>
