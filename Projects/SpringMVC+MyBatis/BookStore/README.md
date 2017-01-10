@@ -13,12 +13,7 @@
 ----------
 
 
-# 关于Tag和todo
-## Tag
-部分需要特别备注的更迭，将会在git中以tag标签的形式进行标记。
- - v1.0：初始结构 jsp+servlet+jdbc; IDEA+Maven
-
-## todo
+# 关于todo
 代码中大量使用了注释，其中不同开头对我个人代表不同的含义。
 
  - todo：表示还没有解决的问题，或者自己的疑惑；
@@ -55,10 +50,10 @@ e.g.
 
 
 	  
-参考链接：<br>
-[第二章 Spring MVC入门 —— 跟开涛学SpringMVC][1]<br>
-[跟开涛学SpringMVC（4.5）：Controller接口控制器详（5）][2]（关键字：InternalPathMethodNameResolver）<br>
-[学无止境：springMVC][3]（关键字：MultiActionController）<br>
+参考链接：
+- [第二章 Spring MVC入门 —— 跟开涛学SpringMVC][1]
+- [跟开涛学SpringMVC（4.5）：Controller接口控制器详（5）][2]（关键字：InternalPathMethodNameResolver）
+- [学无止境：springMVC][3]（关键字：MultiActionController）
 <br>
 
 ## 2）DispatcherServlet和ApplicationContext
@@ -178,6 +173,7 @@ DispatcherServlet本质来说就是一个Servlet，那么其核心的方法servi
 ### 3.2 核心流程中的doDispatch()和拦截器
 
 `DispatcherServlet --> service() --> processRequest() --> doService() --> doDispatch()`
+<br>
 由上，我们看到大体的核心流程。那么我们聊一聊在这个关键方法doDispatch()里面发生的事情。<br>
 那么在这个方法中，做了以下几个核心步骤：<br>
 
@@ -186,9 +182,7 @@ DispatcherServlet本质来说就是一个Servlet，那么其核心的方法servi
 
 2. 将HandlerExecutionChain作为参数，获得HandlerAdapter
 （需要在xml中配置HandlerMapping对应的HandlerAdapter，用以适配Controller）
-``` stylus
-HandlerAdapter ha = getHandlerAdapter(mappedHandler.getHandler());
-```
+`HandlerAdapter ha = getHandlerAdapter(mappedHandler.getHandler());`
 
 3. applyPreHandle()执行前置拦截器，调用拦截器的preHandle()
 （如果有自定义拦截器，需要在xml中配置）
@@ -198,10 +192,10 @@ HandlerAdapter ha = getHandlerAdapter(mappedHandler.getHandler());
 5. applyPostHandle()执行后置拦截器
 
 6. processDispatchResult()
-—6.1 render( ModelAndView mv, HttpServletRequest request, HttpServletResponse response )
-——6.1.1 resolveViewName()
-———6.1.1.1 viewResolver.resolveViewName() 调用视图解析器解析视图
-——6.1.2 render() 传递
+- —6.1 render( ModelAndView mv, HttpServletRequest request, HttpServletResponse response )
+- ——6.1.1 resolveViewName()
+- ———6.1.1.1 viewResolver.resolveViewName() 调用视图解析器解析视图
+- ——6.1.2 render() 传递
 
 <br>
 关于以上1、2、3点，结合项目中xml代码如下：
@@ -228,9 +222,9 @@ HandlerAdapter ha = getHandlerAdapter(mappedHandler.getHandler());
 
     <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"></bean>
 ```
-参考链接：<br>
-[SpringMVC从入门到精通之第三章][4]
-[springMVC学习笔记(二)-----注解和非注解入门小程序][5]
+参考链接：
+- [SpringMVC从入门到精通之第三章][4]
+- [springMVC学习笔记(二)-----注解和非注解入门小程序][5]
 
 ### 3.3 SpringMVC的几个优点总结
 - JSP页面可以放在WEB-INF下，增加安全性，强化MVC编程模型；
@@ -329,7 +323,6 @@ enctype 属性规定在发送到服务器之前应该如何对表单数据进行
         <property name="maxUploadSize" value="102400" /><!--最大上传量为100k-->
     </bean>
 ```
-<br>
 
 ### 6.5 Action中的方法添加MultipartFile接受参数(另，@RequestParam)
 在对图片进行接收时，图片和图书的其他信息，应该分别接收。
