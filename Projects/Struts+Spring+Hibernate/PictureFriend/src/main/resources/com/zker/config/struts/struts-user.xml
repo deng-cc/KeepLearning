@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="user" namespace="/user" extends="common">
+        <action name="userAction" class="userAction" method="findByPage">
+            <result name="registerInput" type="dispatcher">/picser/login/register.jsp</result>
+            <result name="register" type="dispatcher">/picser/main/userIndex.jsp</result>
+            <result name="update" type="dispatcher">/picser/user/userDetail.jsp</result>
+            <result name="query" type="dispatcher">/picser/user/userDetailQuery.jsp</result>
+            <result name="updateInfor" type="chain">
+                <param name="nameSpace">/user</param>
+                <param name="actionName">userAction</param>
+                <param name="method">findById</param>
+            </result>
+            <result name="updatePasswordInput" type="dispatcher">/picser/user/userPassword.jsp</result>
+            <result name="updatePassword" type="dispatcher">/picser/user/userPassword.jsp</result>
+            <result name="updateImage" type="chain">
+                <param name="nameSpace">/user</param>
+                <param name="actionName">userAction</param>
+                <param name="method">findById</param>
+            </result>
+        </action>
+    </package>
+</struts>

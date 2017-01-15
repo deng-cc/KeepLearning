@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.zker.model.product.ProductQuery" table="PRODUCT_QUERY">
+        <id name="productQueryId" column="PRODUCT_QUERY_ID">
+            <generator class="sequence">
+                <param name="sequence">SEQ_PRODUCT_QUERY</param>
+            </generator>
+        </id>
+        <property name="queryTime" type="timestamp" column="QUERY_TIME" />
+
+        <!--与用户关联-->
+        <many-to-one name="sysUser" class="com.zker.model.user.SysUser" column="USER_ID" />
+
+        <!--与作品关联-->
+        <many-to-one name="product" class="com.zker.model.product.Product" column="PRODUCT_ID" />
+
+    </class>
+</hibernate-mapping>

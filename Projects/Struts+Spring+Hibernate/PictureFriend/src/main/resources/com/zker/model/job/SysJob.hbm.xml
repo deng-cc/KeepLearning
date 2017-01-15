@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.zker.model.job.SysJob" table="SYS_JOB" lazy="true">
+        <id name="jobId" column="JOB_ID">
+            <generator class="sequence">
+                <param name="sequence">SEQ_SYS_JOB</param>
+            </generator>
+        </id>
+        <property name="jobName" type="string" column="JOB_NAME" />
+        <property name="jobDesc" type="string" column="JOB_DESC" />
+        <property name="lastModity" type="timestamp" column="LAST_MODIFY" />
+        <!--与用户关联-->
+        <set name="sysUsers" table="SYS_USER">
+            <key column="JOB_ID" />
+            <one-to-many class="com.zker.model.user.SysUser" />
+        </set>
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <tx:advice id="txAdvice" transaction-manager="hibernateTransactionManager">
+        <tx:attributes>
+            <tx:method name="save*" isolation="DEFAULT" propagation="REQUIRED" read-only="false"/>
+            <tx:method name="update*" isolation="DEFAULT" propagation="REQUIRED" read-only="false"/>
+            <tx:method name="delete*" isolation="DEFAULT" propagation="REQUIRED" read-only="false"/>
+            <tx:method name="register*" isolation="DEFAULT" propagation="REQUIRED" read-only="false"/>
+            <tx:method name="find*"  read-only="true"/>
+            <tx:method name="load*"  read-only="true"/>
+        </tx:attributes>
+    </tx:advice>
+    <aop:config>
+        <!-- 配置切入点 -->
+        <aop:pointcut expression="execution(* com.zker.service.*.*(..))" id="txPointCut"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointCut"/>
+    </aop:config>
+
+    <!--登录模块 业务层配置-->
+    <bean id="loginService" class="com.zker.service.login.LoginServiceImpl" scope="singleton">
+        <property name="userDao" ref="userDao" /> <!--//@tips property的name为class中的属性，ref为beanId-->
+        <property name="loginDao" ref="loginDao" />
+    </bean>
+
+    <!--作品分类模块 业务层配置-->
+    <bean id="productSortService" class="com.zker.service.product.ProductSortServiceImpl" scope="prototype">
+        <property name="productSortDao" ref="productSortDao" />
+    </bean>
+
+    <!--职位模块 业务层配置-->
+    <bean id="jobService" class="com.zker.service.job.JobServiceImpl" scope="singleton">
+        <property name="jobDao" ref="jobDao" />
+    </bean>
+
+    <!--用户模块 业务层配置-->
+    <bean id="userService" class="com.zker.service.user.UserServiceImpl" scope="singleton">
+        <property name="userDao" ref="userDao" />
+        <property name="loginService" ref="loginService" />
+        <property name="jobDao" ref="jobDao" />
+    </bean>
+</beans>

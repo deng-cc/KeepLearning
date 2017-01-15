@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.zker.model.reply.CommentReply" table="COMMENT_REPLY">
+        <id name="replyId" type="int" column="REPLY_ID">
+            <generator class="sequence">
+                <param name="sequence">SEQ_COMMENT_REPLY</param>
+            </generator>
+        </id>
+        <property name="replyComment" type="string" column="REPLY_COMMENT" />
+        <property name="replyTime" type="timestamp" column="REPLY_TIME" />
+
+        <!--与用户关联-->
+        <many-to-one name="sysUser" class="com.zker.model.user.SysUser" column="SYS_ID" />
+        <!--与评论关联-->
+        <many-to-one name="productComment" class="com.zker.model.comment.ProductComment" column="COMMENT_ID" />
+
+    </class>
+</hibernate-mapping>

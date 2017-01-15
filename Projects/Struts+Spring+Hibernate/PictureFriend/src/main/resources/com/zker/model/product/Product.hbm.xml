@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.zker.model.product.Product" table="PRODUCT">
+        <id name="productId" column="PRODUCT_ID">
+            <generator class="sequence">
+                <param name="sequence">SEQ_PRODUCT</param>
+            </generator>
+        </id>
+
+        <property name="productName" type="string" column="PRODUCT_NAME" />
+        <property name="productDesc" type="string" column="PRODUCT_DESC" />
+        <property name="lastModify" type="timestamp" column="LAST_MODIFY" />
+        <property name="createDate" type="date" column="CREATE_DATE" />
+        <property name="uploadDate" type="timestamp" column="UPLOAD_DATE" />
+        <property name="imageUrl" type="string" column="IMAGE_URL" />
+
+        <!--与作品分类关联-->
+        <many-to-one name="productSort" class="com.zker.model.product.ProductSort" column="PRODUCT_SORT" />
+        <!--与用户关联-->
+        <many-to-one name="sysUser" class="com.zker.model.user.SysUser" column="SYS_USER" />
+
+        <!--与作品评论表关联，使用级联删除-->
+        <set name="productComments" table="PRODUCT_COMMENT" inverse="true" fetch="select" cascade="all">
+            <key column="PRODUCT_ID" />
+            <one-to-many class="com.zker.model.comment.ProductComment" />
+        </set>
+
+        <!--与作品查询表关联，使用级联删除-->
+        <set name="productQueries" table="PRODUCT_QUERY" inverse="true" fetch="select" cascade="all">
+            <key column="PRODUCT_ID" />
+            <one-to-many class="com.zker.model.product.ProductQuery" />
+        </set>
+
+
+    </class>
+</hibernate-mapping>

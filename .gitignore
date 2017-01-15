@@ -1,2 +1,6 @@
 /Projects/SpringMVC+MyBatis/BookStore/target/*
 /Projects/SpringMVC+MyBatis/BookStore/out/*
+/Projects/SpringMVC+MyBatis/BookStore/etc/sources/*
+
+/Projects/Struts+Spring+Hibernate/PictureFriend/target/*
+/Projects/Struts+Spring+Hibernate/PictureFriend/out/*

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.zker.model.login.SysLogin" table="SYS_LOGIN">
+        <id name="loginId" column="LOGIN_ID">
+            <generator class="sequence">
+                <param name="sequence">SEQ_SYS_LOGIN</param>
+            </generator>
+        </id>
+        <property name="loginTime" type="timestamp" column="LOGIN_TIME" />
+        <many-to-one name="sysUser" class="com.zker.model.user.SysUser" column="USER_ID" />
+    </class>
+</hibernate-mapping>

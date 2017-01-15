@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+  <!-- 系统常量的定义 start-->
+    <!--开启动态方法调用：指一个Action中多个方法时，系统根据表单元素给定的action来访问不同方法，不用写多个Action-->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <!--设定创建Action的工厂类为Spring，也就是Struts的action交给Spring管理-->
+    <constant name="struts.objectFactory" value="spring" />
+    <!--设定Struts的UI主题为simple-->
+    <constant name="struts.ui.theme" value="simple" />
+    <!--设定Struts的调试模式-->
+    <constant name="struts.devMode" value="true" />
+
+    <constant name="struts.custom.i18n.resources" value="com.zker.config.struts.fileUpLoad" />
+  <!-- 系统常量的定义 end-->
+
+    <!--公用package-->
+    <package name="common" namespace="/" extends="struts-default" >
+
+    </package>
+
+    <include file="com/zker/config/struts/struts-login.xml"></include>
+    <include file="com/zker/config/struts/struts-job.xml"></include>
+    <include file="com/zker/config/struts/struts-user.xml"></include>
+</struts>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.zker.model.user.SysUser" table="SYS_USER" dynamic-insert="true" dynamic-update="true" >
+        <id name="userId" column="USER_ID">
+            <generator class="sequence">
+                <param name="sequence">SEQ_SYS_USER</param>
+            </generator>
+        </id>
+        <property name="userName" type="string" column="USER_NAME" />
+        <property name="password" type="string" column="PASSWORD" />
+        <property name="email" type="string" column="EMAIL" />
+        <property name="imageUrl" type="string" column="IMAGE_URL" />
+        <property name="loginName" column="LOGIN_NAME" type="string" />
+        <property name="isMale" type="true_false" column="IS_MALE" />
+        <property name="phoneNum" type="string" column="PHONE_NUM" />
+        <property name="birthday" type="date" column="BIRTHDAY" />
+        <property name="registerTime" type="timestamp" column="REGISTER_TIME" />
+        <property name="isLock" type="yes_no" column="IS_LOCK" />
+
+        <!--与职位关联配置-->
+        <many-to-one name="sysJob" class="com.zker.model.job.SysJob" column="JOB_ID" />
+
+        <!--与登录关联配置-->
+        <set name="sysLogin" table="SYS_LOGIN" inverse="true" fetch="select">
+            <key column="USER_ID" />
+            <one-to-many class="com.zker.model.login.SysLogin" />
+        </set>
+
+        <!--与作品表关联配置-->
+        <set name="products" table="PRODUCT" inverse="true" fetch="select">
+            <key column="CREATE_USER" />
+            <one-to-many class="com.zker.model.product.Product" />
+        </set>
+
+        <!--与作品表查询关联配置-->
+        <set name="productQueries" table="PRODUCT_QUERY" inverse="true" fetch="select">
+            <key column="USER_ID" />
+            <one-to-many class="com.zker.model.product.ProductQuery" />
+        </set>
+
+        <!--与作品表评论关联配置-->
+        <set name="productComments" table="PRODUCT_COMMENT" inverse="true" fetch="select">
+            <key column="USER_ID" />
+            <one-to-many class="com.zker.model.comment.ProductComment" />
+        </set>
+
+        <!--与作品评论回复关联配置-->
+        <set name="commentReplies" table="COMMEN_REPLY" inverse="true" fetch="select">
+            <key column="USER_ID" />
+            <one-to-many class="com.zker.model.reply.CommentReply" />
+        </set>
+        
+    </class>
+</hibernate-mapping>

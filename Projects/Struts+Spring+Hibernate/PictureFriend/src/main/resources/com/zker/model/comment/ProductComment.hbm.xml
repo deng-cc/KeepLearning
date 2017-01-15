@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.zker.model.comment.ProductComment"
+           table="PRODUCT_COMMENT">
+        <id name="commentId" type="int" column="COMMENT_ID">
+            <generator class="sequence">
+                <param name="sequence">SEQ_PRODUCT_COMMENT</param>
+            </generator>
+        </id>
+
+        <property name="commentContent" type="string" column="COMMENT_CONTENT" />
+        <property name="commentTime" type="timestamp" column="COMMENT_TIME" />
+
+        <!--与用户关联-->
+        <many-to-one name="sysUser" class="com.zker.model.user.SysUser" column="USER_ID" />
+        <!--与作品关联-->
+        <many-to-one name="product" class="com.zker.model.product.Product" column="PRODUCT_ID" />
+        <!--与回复关联-->
+        <set name="commentReplies" table="COMMENT_REPLY" inverse="true" fetch="select" cascade="delete">
+            <!--多对一中，一的column-->
+            <key column="COMMENT_ID" />
+            <!--多对一种，多的class-->
+            <one-to-many class="com.zker.model.reply.CommentReply" />
+        </set>
+
+    </class>
+</hibernate-mapping>

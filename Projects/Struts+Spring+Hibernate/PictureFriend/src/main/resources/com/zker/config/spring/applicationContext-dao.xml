@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http:/change/www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+    <bean id="sessionFactory"
+          class="org.springframework.orm.hibernate3.LocalSessionFactoryBean" >
+        <property name="configLocation" value="classpath:hibernate.cfg.xml" ></property>
+    </bean>
+
+    <bean id = "hibernateTemplate"
+          class="org.springframework.orm.hibernate3.HibernateTemplate">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <bean id="hibernateTransactionManager"
+          class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <!--Dao配置-->
+    <bean id="userDao" class="com.zker.dao.user.UserDaoImpl" scope="singleton">
+        <property name="hibernateTemplate" ref="hibernateTemplate" />
+    </bean>
+
+    <bean id="loginDao" class="com.zker.dao.login.LoginDaoImpl" scope="singleton">
+        <property name="hibernateTemplate" ref="hibernateTemplate" />
+    </bean>
+
+    <bean id="productSortDao" class="com.zker.dao.product.ProductSortDaoImpl" scope="singleton">
+        <property name="hibernateTemplate" ref="hibernateTemplate" />
+    </bean>
+
+    <bean id="jobDao" class="com.zker.dao.job.JobDaoImpl" scope="singleton" >
+        <property name="hibernateTemplate" ref="hibernateTemplate" />
+    </bean>
+
+</beans>

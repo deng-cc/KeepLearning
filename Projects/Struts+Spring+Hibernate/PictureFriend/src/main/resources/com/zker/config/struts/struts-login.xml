@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="login" namespace="/login" extends="common">
+        <action name="loginAction" class="loginAction" > <!--//tips class对应Spring中的beanId loginAction -->
+            <result name="getValidateCode" type="stream"> <!--//tips 根据返回值到配置文件中找到对应的name，以type方式返回 -->
+                <param name="inputName">imageInputStream</param> <!--//tips 变量名 -->
+            </result>
+            <result name="userSuccess" type="dispatcher">/picser/main/userIndex.jsp</result>
+            <result name="adminSuccess" type="dispatcher">/picser/main/adminIndex.jsp</result>
+            <result name="input" type="dispatcher">/picser/login/login.jsp</result>
+            <result name="logout" type="redirect">/picser/login/login.jsp</result>
+        </action>
+    </package>
+</struts>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.zker.model.product.ProductSort" table="PRODUCT_SORT">
+        <id name="sortId" type="int" column="SORT_ID">
+            <generator class="sequence">
+                <param name="sequence">SEQ_PRODUCT_SORT</param>
+            </generator>
+        </id>
+        <property name="sortName" type="string" column="SORT_NAME" />
+        <property name="sortDesc" type="string" column="SORT_DESC" />
+        <!--与作品相关联-->
+        <set name="products" table="PRODUCT" inverse="true" fetch="select">
+            <key column="PRODUCT_SORT" />
+            <one-to-many class="com.zker.model.product.Product" />
+        </set>
+    </class>
+</hibernate-mapping>
