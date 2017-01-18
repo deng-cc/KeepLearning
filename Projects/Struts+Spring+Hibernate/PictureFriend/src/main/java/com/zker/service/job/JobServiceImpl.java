@@ -52,15 +52,15 @@ public class JobServiceImpl implements JobService {
      */
     @Override
     public SysJob save(SysJob pSysJob) {
-        try {
+        //try {
             SysJob sysJob = jobDao.findByName(pSysJob.getJobName());
             if (sysJob != null) {
                 throw new BusinessException("已经存在" + pSysJob.getJobName() + "的职位名称");
             }
             return jobDao.save(pSysJob);
-        } catch (DataAccessException e) {
-            throw new BusinessException();
-        }
+        //} catch (DataAccessException e) {
+        //    throw new BusinessException();
+        //}
 
     }
 

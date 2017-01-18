@@ -12,14 +12,16 @@
 	<script type="text/javascript" src="<%=basePath%>common/js/validate.js"></script>
 </head>
 <script type="text/javascript">
-    function showProductBySort(sortId) {
-        document.getElementById("mainframe").src='productBySort.html';
+    function showProductBySort() {
+        document.getElementById("mainframe").src='<%=basePath%>picser/productBySort.html';
+        //todo 此处函数应有参数，为保证暂时的页面链接正常，这里进行了删除
     }
     function showMain() {
-        document.getElementById("mainframe").src='main.jsp';
+        document.getElementById("mainframe").src='<%=basePath%>picser/main/main.jsp';
     }
     function userManage() {
             window.mainframe.location.href="userList.jsp";
+            window.mainframe.location.href="<%=basePath%>";
     }
 	function mainImage() {
 		window.mainframe.location.href="mainImage.html";
@@ -47,7 +49,7 @@
                 -->
 
                 <s:iterator value="#session.productSorts"> <!--//@todo ongl表达式undone -->
-                    <li><a href='##' onclick=''><s:property value="sortName" /> </a> </li>
+                    <li><a href='##' onclick='showProductBySort()'><s:property value="sortName" /> </a> </li>
                 </s:iterator>
                 
                 <li><a href="###" onclick="userManage()" >会员管理</a></li>

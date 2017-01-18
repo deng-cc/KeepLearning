@@ -17,10 +17,10 @@ function showUserDetail() {
 	//tips struts的namespace
 }
 function showProduct() {
-	document.getElementById("mainframe").src='productByUser.html';
+	document.getElementById("mainframe").src='<%=basePath%>picser/productByUser.html';
 }
-function showProductBySort(sortId) {
-	document.getElementById("mainframe").src='productBySort.html';
+function showProductBySort() {
+	document.getElementById("mainframe").src='<%=basePath%>picser/productBySort.html';
 }
 function showMain() {
 	document.getElementById("mainframe").src='<%=basePath%>picser/main/main.jsp';
@@ -43,8 +43,9 @@ function showMain() {
                 	<li><a href='##' onclick='showProductBySort()'>转载</a></li>
                 	<li><a href='##' onclick='showProductBySort()'>欣赏</a></li>
                     -->
-                    <s:iterator value="#session.productSorts"> <!--//@todo ongl表达式undone -->
-                        <li><a href='##' onclick=''><s:property value="sortName" /> </a> </li>
+                    <s:iterator value="#session.productSorts"> <!--//todo ongl表达式undone -->
+                        <li><a href='##' onclick='showProductBySort()'><s:property value="sortName" /> </a> </li>
+                        <!--//todo 注意此处需要传参，待修订-->
                     </s:iterator>
                 
                 <li><a href="###" onclick="showUserDetail()">个人信息</a></li>

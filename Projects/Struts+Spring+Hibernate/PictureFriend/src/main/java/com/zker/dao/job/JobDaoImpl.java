@@ -1,5 +1,6 @@
 package com.zker.dao.job;
 
+import com.zker.action.BaseAction;
 import com.zker.dao.BaseDao;
 import com.zker.model.job.SysJob;
 
@@ -32,9 +33,10 @@ public class JobDaoImpl extends BaseDao implements JobDao {
      */
     @Override
     public SysJob save(SysJob pSysJob) {
-        int id = (Integer)getHibernateTemplate().save(pSysJob);
+        int id = (Integer) getHibernateTemplate().save(pSysJob);
         pSysJob.setJobId(id);
         return pSysJob;
+
     }
 
     /**

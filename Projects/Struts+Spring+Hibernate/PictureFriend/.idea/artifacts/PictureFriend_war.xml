@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="PictureFriend:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="pictureFriend.war">
-      <element id="artifact" artifact-name="PictureFriend:war exploded" />
-    </root>
-  </artifact>
-</component>

@@ -67,7 +67,7 @@ public class JobAction extends BaseAction {
 
     /**
      * 查找职位
-     *  根据职位的主键ID
+     * 根据职位的主键ID
      * @return
      */
     public String findById() {

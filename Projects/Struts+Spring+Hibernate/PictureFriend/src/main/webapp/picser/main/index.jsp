@@ -11,10 +11,10 @@
 </head>
 <script type="text/javascript">
 function showProductBySort() {
-	document.getElementById("mainframe").src='productBySort.html';
+	document.getElementById("mainframe").src='<%=basePath%>/productBySort.html';
 }
 function showMain() {
-	document.getElementById("mainframe").src='main.jsp';
+	document.getElementById("mainframe").src='<%=basePath%>picser/main.jsp';
 }
 </script>
 <body>
