@@ -39,6 +39,17 @@
         }
         return true;
     }
+    //检验生日输入的格式是否正确
+    function IsDate(d){
+        var reg = /^(\d{1,4})(-|\/)(\d{1,2})\2(\d{1,2})$/;
+        var result = d.match(reg);
+        if(result == null){return false};
+        var dt = new Date(result[1],result[3]-1,result[4]);
+        if(Number(dt.getFullYear())!=Number(result[1])){return false;}
+        if(Number(dt.getMonth())+1!=Number(result[3])){return false;}
+        if(Number(dt.getDate())!=Number(result[4])){return false;}
+        return true;
+    }
     function checkInfor(){
         var userName = $("#userName").val().trim();
         var email = $("#email").val().trim();
@@ -67,6 +78,12 @@
 
             return false;
         }
+        if (!IsDate(birthday)) {
+            alert('请输入正确的日期格式，例如 "1991-04-08"\n请注意年月日之间的对应关系');
+
+            return false;
+        }
+
         return true;
     }
 </script>
@@ -91,7 +108,10 @@
 
             <input type="file" name="image" id="image"><br>
             <s:hidden name="sysUser.userId"></s:hidden>
-            <font size="3" color="red">图片建议大小为150px X 150px，<br>大小不能超过2m、图片格式为jpg、png格式</font><br>
+            <font size="3" color="red">
+                图片建议大小为150px X 150px，<br>
+                大小不能超过2m、图片格式为jpg、png格式
+            </font><br>
             <s:submit method="updateImage" value="提交"></s:submit>
 
         </s:form>
@@ -140,9 +160,9 @@
 
                 <td style="font-size:16px ;padding:20px 0;">出生日期</td>
                 <td><s:textfield name="sysUser.birthday" cssClass="easyui-datebox" id="dd" value="%{sysUser.getBirthdayString()}"/> <font color="red" size="5">*</font></td>
-            </tr><!-- //todo sysUser.getBirthdayString() undone 页面更新未获取-->
+            </tr>
             <tr>
-                <td colspan="2" style="font-size:16px ;padding:20px 0;"><font color="red" size="3">*为必输项 </font></td>
+                <td colspan="2" style="font-size:16px ;padding:20px 0;"><font color="red" size="3">*为必输项</font></td>
             </tr>
             <tr>
                 <td> <s:submit value="提交" method="updateInfor" cssStyle="height:30px;width:60px"></s:submit> </td>

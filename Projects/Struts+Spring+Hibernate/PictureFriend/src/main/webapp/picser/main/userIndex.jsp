@@ -12,8 +12,8 @@
 </head>
 <script type="text/javascript">
 function showUserDetail() {
-	<%--document.getElementById("mainframe").src='<%=basePath%>picser/user/userDetail.jsp';--%>
-	document.getElementById("mainframe").src='<%=basePath%>user/userAction!findById?sysUser.userId=<s:property value="#session.curUser.userId" />';
+	document.getElementById("mainframe").
+            src='<%=basePath%>user/userAction!findById?sysUser.userId=<s:property value="#session.curUser.userId" />';
 	//tips struts的namespace
 }
 function showProduct() {

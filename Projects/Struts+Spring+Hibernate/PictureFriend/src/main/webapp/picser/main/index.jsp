@@ -42,8 +42,8 @@ function showMain() {
         
         <div class="menuLink" style="margin-left: 450px">
         	<ul class="fn-clear">
-            	<li><a target="_blank" href="<%=basePath%>picser/login/login.jsp" >登陆</a></li>
-            	<li><a target="_blank" href="../login/register.jsp" >注册</a></li>
+            	<li><a target="_top" href="<%=basePath%>picser/login/login.jsp" >登陆</a></li>
+            	<li><a target="_top" href="../login/register.jsp" >注册</a></li>
             </ul>
         </div>
 	

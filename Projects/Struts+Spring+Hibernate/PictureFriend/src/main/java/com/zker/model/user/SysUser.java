@@ -8,6 +8,8 @@ import com.zker.model.product.ProductQuery;
 import com.zker.model.reply.CommentReply;
 
 import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -207,5 +209,15 @@ public class SysUser {
 
     public void setCommentReplies(Set<CommentReply> commentReplies) {
         this.commentReplies = commentReplies;
+    }
+
+    /**
+     * 转换生日
+     * 将Date类型的生日转换为String
+     * @return
+     */
+    public String getBirthdayString() {
+        DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+        return df.format(this.birthday);
     }
 }
