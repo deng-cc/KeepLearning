@@ -3,6 +3,7 @@ package com.zker.service.user;
 import com.zker.model.user.SysUser;
 
 import java.io.File;
+import java.util.List;
 
 public interface UserService {
     /**
@@ -40,4 +41,31 @@ public interface UserService {
      * @param path
      */
     void updateImage(SysUser sysUser, File image, String path);
+
+    /**
+     * 根据页码查询用户信息
+     * @param page
+     * @return
+     */
+    List<SysUser> findByPage(int page);
+
+    /**
+     * 查找用户总数量
+     * @return
+     */
+    int findCount();
+
+    /**
+     * 解锁用户
+     * @param userId
+     * @return
+     */
+    SysUser unLockUser(int userId);
+
+    /**
+     * 锁定用户
+     * @param userId
+     * @return
+     */
+    SysUser lockUser(int userId);
 }

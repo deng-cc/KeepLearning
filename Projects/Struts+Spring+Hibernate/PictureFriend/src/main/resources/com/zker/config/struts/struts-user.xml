@@ -21,6 +21,17 @@
                 <param name="actionName">userAction</param>
                 <param name="method">findById</param>
             </result>
+            <result name="findByPage" type="dispatcher">/picser/user/userList.jsp</result>
+            <result name="unLockUser" type="chain">
+                <param name="nameSpace">/user</param>
+                <param name="actionName">userAction</param>
+                <param name="method">findByPage</param>
+            </result>
+            <result name="lockUser" type="chain">
+                <param name="nameSpace">/user</param>
+                <param name="actionName">userAction</param>
+                <param name="method">findByPage</param>
+            </result>
         </action>
     </package>
 

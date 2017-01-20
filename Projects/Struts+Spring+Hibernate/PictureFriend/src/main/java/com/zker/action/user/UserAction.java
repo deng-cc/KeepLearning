@@ -54,6 +54,9 @@ public class UserAction extends BaseAction implements ServletContextAware{
     /**封装了头像的图片名称*/
     private String imageFileName;
 
+    /**对于默认findByPage中的page为1*/
+    private int page = 1;
+
     public SysUser getSysUser() {
         return sysUser;
     }
@@ -215,6 +218,40 @@ public class UserAction extends BaseAction implements ServletContextAware{
         getSession().put(Constant.SESSION_USER, temp);
         return "updateImage";
 
+    }
+
+    /**
+     * 查找指定页码的用户信息
+     * @return
+     */
+    public String findByPage() {
+        List<SysUser> sysUsers = userService.findByPage(page);
+        getRequest().put("sysUsers", sysUsers);
+        int count = userService.findCount();
+        //总页数=总数/每页数量（分奇偶情况进行计算）
+        int pageCount =
+                count % Constant.USER_NUMBER_PAGE == 0 ?
+                        count / Constant.USER_NUMBER_PAGE : count / Constant.USER_NUMBER_PAGE + 1;
+        getRequest().put("pageCount", pageCount);
+        return "findByPage";
+    }
+
+    /**
+     * 解锁用户
+     * @return
+     */
+    public String unLockUser() {
+        userService.unLockUser(sysUser.getUserId());
+        return "unLockUser";
+    }
+
+    /**
+     * 锁定用户
+     * @return
+     */
+    public String lockUser() {
+        userService.lockUser(sysUser.getUserId());
+        return "lockUser";
     }
 
 

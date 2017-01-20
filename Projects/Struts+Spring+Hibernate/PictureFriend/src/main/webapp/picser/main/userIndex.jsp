@@ -1,3 +1,4 @@
+<%@ page import="com.zker.model.user.SysUser" %>
 <%@page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="../common/jspHeadFile.jsp"%>
 
@@ -61,7 +62,7 @@ function showMain() {
         </div>
         <div class="menuLink" style="margin-left: 40px">
         	<ul class="fn-clear">
-            	<li><a href="###">欢迎乔丹访问</a></li>
+            	<li><a href="###">欢迎 <s:property value="#session.curUser.userName" /> 访问</a></li>
             </ul>
         </div>
         

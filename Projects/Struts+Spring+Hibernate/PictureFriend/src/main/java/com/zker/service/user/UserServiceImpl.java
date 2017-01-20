@@ -13,6 +13,7 @@ import org.springframework.dao.DataAccessException;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 public class UserServiceImpl implements UserService {
     private UserDao userDao;
@@ -148,6 +149,59 @@ public class UserServiceImpl implements UserService {
             throw new BusinessException("文件上传错误", e);
         }
 
+    }
+
+    /**
+     * 查找指定页码的用户信息
+     * @param page
+     * @return
+     */
+    @Override
+    public List<SysUser> findByPage(int page) {
+        try {
+            return userDao.findByPage(page);
+        } catch (DataAccessException e) {
+            throw new BusinessException();
+        }
+    }
+
+    /**
+     * 查找用户的总数量
+     * @return
+     */
+    @Override
+    public int findCount() {
+        try {
+            return userDao.findCount();
+        } catch (DataAccessException e) {
+            throw new BusinessException();
+        }
+    }
+
+    /**
+     * 解锁用户
+     * @param userId
+     * @return
+     */
+    @Override
+    public SysUser unLockUser(int userId) {
+        SysUser sysUser = userDao.findById(userId);
+        sysUser.setIsLock(false);
+
+        return userDao.update(sysUser);
+    }
+
+    /**
+     * 锁定用户
+     * @param userId
+     * @return
+     */
+    @Override
+    public SysUser lockUser(int userId) {
+        SysUser sysUser = userDao.findById(userId);
+        sysUser.setIsLock(true);
+
+        return userDao.update(sysUser);
     }
 
 

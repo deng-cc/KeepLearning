@@ -1,9 +1,15 @@
 package com.zker.dao.user;
 
+import com.zker.common.Constant;
 import com.zker.dao.BaseDao;
 import com.zker.model.user.SysAdmin;
 import com.zker.model.user.SysUser;
+import org.hibernate.HibernateException;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.springframework.orm.hibernate3.HibernateCallback;
 
+import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -71,6 +77,43 @@ public class UserDaoImpl extends BaseDao implements UserDao {
     public SysUser update(SysUser sysUser) {
         getHibernateTemplate().update(sysUser);
         return sysUser;
+    }
+
+    /**
+     * 查找指定页码的用户信息
+     * @param page
+     * @return List<SysUser>
+     */
+    public List<SysUser> findByPage(final int page) {
+        //tips 因为使用spring封装的hibernateTemplate，所以没办法直接使用min、max，需要迂回一下先使用spring提供的一个接口
+        final String hql = "from SysUser u left outer join fetch u.sysJob";
+        return getHibernateTemplate().executeFind(
+                new HibernateCallback<List<SysUser>>() {
+                    public List<SysUser> doInHibernate(Session session)
+                            throws HibernateException, SQLException {
+                        Query query = session.createQuery(hql);
+                        query.setFirstResult((page - 1) * Constant.USER_NUMBER_PAGE);
+                        query.setMaxResults(Constant.USER_NUMBER_PAGE);
+                        List<SysUser> list = query.list();
+                        return list;
+                    }
+                });
+    }
+
+    /**
+     * 返回用户信息的总数量
+     * @return
+     */
+    @Override
+    public int findCount() {
+        String hql = "select count(*) from SysUser";
+        List counts = getHibernateTemplate().find(hql);
+        int count = 0;
+        for (Object temp : counts) {
+            count = Integer.parseInt(temp.toString());
+        }
+        return count;
+
     }
 
 

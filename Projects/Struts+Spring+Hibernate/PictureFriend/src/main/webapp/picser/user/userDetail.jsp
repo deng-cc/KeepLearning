@@ -94,7 +94,7 @@
 
 <div align="center" style="margin-top: 30px;float:left;height: 600px;">
     <s:if test="sysUser.imageUrl==null">
-        <img src="<%=basePath%>common/image/touxiang.gif" height="80px"><br>
+        <img src="<%=basePath%>common/image/touxiang.jpg" height="80px"><br>
         您还没有上传图像&nbsp;&nbsp; &nbsp;&nbsp;<a onclick="showImageDiv()" href="##"><font color="red">上传图像</font></a>
     </s:if>
     <s:else>

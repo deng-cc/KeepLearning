@@ -3,6 +3,8 @@ package com.zker.dao.user;
 import com.zker.model.user.SysAdmin;
 import com.zker.model.user.SysUser;
 
+import java.util.List;
+
 /**
  * zker 图友网模拟项目
  * FileName:UserDao
@@ -46,4 +48,17 @@ public interface UserDao {
      * @return
      */
     SysUser update(SysUser sysUser);
+
+    /**
+     * 查找指定页码的用户信息
+     * @param page
+     * @return
+     */
+    List<SysUser> findByPage(int page);
+
+    /**
+     * 返回用户信息的总数量
+     * @return
+     */
+    int findCount();
 }

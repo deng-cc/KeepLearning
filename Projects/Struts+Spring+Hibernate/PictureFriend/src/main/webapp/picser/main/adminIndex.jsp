@@ -21,7 +21,7 @@
     }
     function userManage() {
             window.mainframe.location.href="userList.jsp";
-            window.mainframe.location.href="<%=basePath%>";
+            window.mainframe.location.href="<%=basePath%>user/userAction!findByPage?page=1";
     }
 	function mainImage() {
 		window.mainframe.location.href="mainImage.html";
