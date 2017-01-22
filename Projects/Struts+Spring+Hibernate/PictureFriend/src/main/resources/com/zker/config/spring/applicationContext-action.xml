@@ -29,7 +29,10 @@
         <property name="userService" ref="userService" />
         <property name="productSortService" ref="productSortService" />
         <property name="jobService" ref="jobService" />
-
     </bean>
 
+    <!--Ajax Action-->
+    <bean id="ajaxAction" class="com.zker.action.AjaxAction" scope="prototype">
+
+    </bean>
 </beans>

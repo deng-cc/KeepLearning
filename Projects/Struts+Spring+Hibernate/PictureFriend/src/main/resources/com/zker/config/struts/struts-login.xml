@@ -14,4 +14,14 @@
             <result name="logout" type="redirect">/picser/login/login.jsp</result>
         </action>
     </package>
+
+    <package name="ajax" namespace="/ajax" extends="json-default" >
+        <action name="ajaxAction" class="ajaxAction" method="ajaxRegister">
+            <!-- 返回类型为json-->
+            <result name="register" type="json">
+                <!--参数root说明只需要传递msg一个数据即可-->
+                <param name="root">result</param>
+            </result>
+        </action>
+    </package>
 </struts>

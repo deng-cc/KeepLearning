@@ -3,6 +3,8 @@ package com.zker.action.user;
 import com.zker.action.BaseAction;
 import com.zker.common.Constant;
 import com.zker.common.exception.BusinessException;
+import com.zker.dao.user.UserDao;
+import com.zker.dao.user.UserDaoImpl;
 import com.zker.model.job.SysJob;
 import com.zker.model.product.ProductSort;
 import com.zker.model.user.SysUser;
@@ -157,6 +159,7 @@ public class UserAction extends BaseAction implements ServletContextAware{
         //符合用户注册规范
         return "register";
     }
+
 
     /**
      * 根据用户id获取用户信息，并将职业信息获取，写入request
