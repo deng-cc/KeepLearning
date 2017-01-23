@@ -140,6 +140,14 @@ public class UserAction extends BaseAction implements ServletContextAware{
         this.imageFileName = imageFileName;
     }
 
+    public int getPage() {
+        return page;
+    }
+
+    public void setPage(int page) {
+        this.page = page;
+    }
+
     /**
      * 用户注册
      * @return
