@@ -24,9 +24,9 @@
     <file path="/UserDaoImplTest.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1484891204482" ignored="false" />
     <file path="/userList.jsp" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1484904261095" ignored="false" />
     <file path="/userDetailQuery.jsp" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1484899797388" ignored="false" />
-    <file path="/register.jsp" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485139251970" ignored="false" />
-    <file path="/AjaxAction.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485075792255" ignored="false" />
-    <file path="/struts-login.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485077599178" ignored="false" />
+    <file path="/register.jsp" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485148324454" ignored="false" />
+    <file path="/AjaxAction.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485148915501" ignored="false" />
+    <file path="/struts-login.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485148872854" ignored="false" />
     <file path="/applicationContext-action.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485062964969" ignored="false" />
     <file path="/Message.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485067458985" ignored="false" />
     <file path="/applicationContext-service.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485072355726" ignored="false" />
@@ -163,22 +163,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/login/register.jsp">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="0" selection-start="3155" selection-end="3155" vertical-scroll-proportion="-12.16">
-              <folding>
-                <marker date="1485139486811" expanded="true" signature="4127:4150" placeholder="{...}" />
-              </folding>
+            <state line="310" column="50" selection-start="9040" selection-end="9040" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="register.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/login/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="315" column="21" selection-start="9229" selection-end="9229" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="80" column="52" selection-start="2995" selection-end="2995" vertical-scroll-proportion="-8.28">
+              <folding>
+                <marker date="1485148773391" expanded="true" signature="4672:4695" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,7 +186,7 @@
       <file leaf-file-name="struts-login.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-login.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="53" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+            <state line="10" column="30" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -195,7 +195,16 @@
       <file leaf-file-name="AjaxAction.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/AjaxAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="7" selection-start="970" selection-end="970" vertical-scroll-proportion="0.29960316">
+            <state line="64" column="48" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.6984127">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/common/util/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -241,10 +250,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zker/common/util/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zker/common/util/SpringContextUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zker/action/AjaxAction.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-login.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/picser/login/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-login.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zker/action/AjaxAction.java" />
       </list>
     </option>
   </component>
@@ -999,7 +1008,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="register_jsp_PictureFriend_5" />
+        <option name="BASE_DIRECTORY_NAME" value="register_jsp_PictureFriend_8" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -1240,7 +1249,7 @@
         <item index="1" class="java.lang.String" itemvalue="Tomcat Server.register.jsp" />
         <item index="2" class="java.lang.String" itemvalue="Tomcat Server.register.jsp" />
         <item index="3" class="java.lang.String" itemvalue="Tomcat Server.register.jsp" />
-        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
+        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.register.jsp" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1395,21 +1404,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.16.1/struts2-core-2.3.16.1.jar!/org/apache/struts2/interceptor/DeprecationInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="519" selection-end="519" vertical-scroll-proportion="-2.56" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.16.1/struts2-core-2.3.16.1.jar!/org/apache/struts2/interceptor/debugging/DebuggingInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="28" selection-start="2077" selection-end="2077" vertical-scroll-proportion="-2.56" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.16.1/xwork-core-2.3.16.1.jar!/com/opensymphony/xwork2/interceptor/MethodFilterInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="40" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.4852071" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.16.1/xwork-core-2.3.16.1.jar!/com/opensymphony/xwork2/interceptor/DefaultWorkflowInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="31" selection-start="719" selection-end="719" vertical-scroll-proportion="0.3298969" />
@@ -1480,32 +1474,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/login/register.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="3155" selection-end="3155" vertical-scroll-proportion="-12.16">
-          <folding>
-            <marker date="1485139486811" expanded="true" signature="4127:4150" placeholder="{...}" />
-          </folding>
+        <state line="6" column="23" selection-start="226" selection-end="226" vertical-scroll-proportion="0.1904762">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-json-plugin/2.3.16.1/struts2-json-plugin-2.3.16.1.jar!/struts-plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0952381">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="315" column="21" selection-start="9229" selection-end="9229" vertical-scroll-proportion="0.0">
+        <state line="310" column="50" selection-start="9040" selection-end="9040" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/common/util/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-login.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="53" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+        <state line="10" column="30" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/login/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="52" selection-start="2995" selection-end="2995" vertical-scroll-proportion="-8.28">
+          <folding>
+            <marker date="1485148773391" expanded="true" signature="4672:4695" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/AjaxAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="7" selection-start="970" selection-end="970" vertical-scroll-proportion="0.29960316">
+        <state line="64" column="48" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.6984127">
           <folding />
         </state>
       </provider>

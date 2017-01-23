@@ -19,8 +19,12 @@
         <action name="ajaxAction" class="ajaxAction">
             <!-- 返回类型为json-->
             <result name="register" type="json">
-                <!--tips 参数root的含义-->
-                <param name="root">result</param>
+                <!--tips 注意参数root的含义-->
+                <!--
+                method1 <param name="root">message</param>
+                method2 <param name="root">result</param>
+                -->
+                <param name="root">message</param>
             </result>
         </action>
     </package>

@@ -60,8 +60,11 @@ public class AjaxAction extends ActionSupport {
             message.setStatus(true);
         }
 
+        /*
         //JSON-String转换 obj -> jsonStr
+        //当struts-login.xml中root为result时，此处才需要解开
         this.result = JSONObject.wrap(message).toString();
+        */
 
         return "register";
     }

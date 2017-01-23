@@ -58,6 +58,7 @@
             var url = "/ajax/ajaxAction!ajaxRegister";
             var params = {loginName : $("#loginName").val()};
 
+            /*method1 <param name="root">result</param>
             $.post(
                     url,  //服务器要接受的url
                     params,  //传递的参数
@@ -66,6 +67,19 @@
                         var msgObj = eval("(" + result + ")"); //jsonStr -> jsObj(jsonObj)
                         var passed = msgObj.status;
                         setMessage(msgObj.msg, passed);
+                    },
+                    'json' //数据传递的类型  json
+            );
+            */
+
+            /*method2 <param name="root">message</param> */
+            $.post(
+                    url,  //服务器要接受的url
+                    params,  //传递的参数
+                    function validateLoginName(message){ //服务器返回后执行的函数 参数是服务器发送到客户端的数据
+                        var msg = message.msg;
+                        var passed = message.status;
+                        setMessage(msg, passed);
                     },
                     'json' //数据传递的类型  json
             );
