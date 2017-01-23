@@ -55,7 +55,7 @@
     $(document).ready( function() {
         //使用 Ajax 的方式 判断登录
         $("#loginName").blur( function() {
-            var url = "/ajax/ajaxAction";
+            var url = "/ajax/ajaxAction!ajaxRegister";
             var params = {loginName : $("#loginName").val()};
 
             $.post(
@@ -77,7 +77,9 @@
                     fontColor = "green";
                 }
                 //对<div name="loginNameMsg">的地方设置其间的代码innerHTML为指定代码
-                validateMessage.innerHTML = "<font color=" + fontColor + ">" + message + "</font>";
+                validateMessage.innerHTML = "<font color=" + fontColor + ">"
+                        + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+                        + message + "</font>";
             }
         });
     });
@@ -99,8 +101,8 @@
     	<div class="login_left">
        	  <h3 class="login_h3">新用户注册</h3>
             <s:form method="post" target="_parent" namespace="/user" action="userAction" onsubmit="return checkInfor()" >
-                <div class="login_sr">账号：<s:textfield cssClass="login_inputYhm" name="sysUser.loginName" id="loginName" /> </div>
                 <div id="loginNameMsg"></div>
+                <div class="login_sr">账号：<s:textfield cssClass="login_inputYhm" name="sysUser.loginName" id="loginName" /> </div>
                 <div class="login_sr">密码：<s:password cssClass="login_inputMm" name="sysUser.password" id="password" /> </div>
                 <div class="login_sr">邮箱：<s:textfield cssClass="login_inputEmail" name="sysUser.email" id="email" /> </div>
                 <div>

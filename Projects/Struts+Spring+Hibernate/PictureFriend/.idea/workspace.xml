@@ -4,7 +4,7 @@
     <list default="true" id="5e5299b3-4370-455e-bea1-601ec48070c2" name="Default" comment="" />
     <ignored path="PictureFriend.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485064948710" ignored="false" />
+    <file path="/pom.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485077955765" ignored="false" />
     <file path="/web.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1484488847133" ignored="false" />
     <file path="/fragment.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485073671937" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1484536167937" ignored="false" />
@@ -24,9 +24,9 @@
     <file path="/UserDaoImplTest.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1484891204482" ignored="false" />
     <file path="/userList.jsp" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1484904261095" ignored="false" />
     <file path="/userDetailQuery.jsp" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1484899797388" ignored="false" />
-    <file path="/register.jsp" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485073953494" ignored="false" />
+    <file path="/register.jsp" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485139251970" ignored="false" />
     <file path="/AjaxAction.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485075792255" ignored="false" />
-    <file path="/struts-login.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485074408150" ignored="false" />
+    <file path="/struts-login.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485077599178" ignored="false" />
     <file path="/applicationContext-action.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485062964969" ignored="false" />
     <file path="/Message.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485067458985" ignored="false" />
     <file path="/applicationContext-service.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485072355726" ignored="false" />
@@ -44,6 +44,42 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/zker/service/job/JobServiceImpl.java" line="59" class="com.zker.service.job.JobServiceImpl" package="com.zker.service.job">
         <option name="ENABLED" value="true" />
@@ -106,42 +142,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -155,7 +155,7 @@
       <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/login/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="40" selection-start="3723" selection-end="3723" vertical-scroll-proportion="-31.36">
+            <state line="112" column="40" selection-start="3723" selection-end="3723" vertical-scroll-proportion="-16.0">
               <folding>
                 <marker date="1480147998000" expanded="true" signature="4736:4759" placeholder="{...}" />
               </folding>
@@ -163,13 +163,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="register.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/login/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="0" selection-start="2568" selection-end="2568" vertical-scroll-proportion="0.20041753">
+            <state line="85" column="0" selection-start="3155" selection-end="3155" vertical-scroll-proportion="-12.16">
               <folding>
-                <marker date="1485076221264" expanded="true" signature="4001:4024" placeholder="{...}" />
+                <marker date="1485139486811" expanded="true" signature="4127:4150" placeholder="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="315" column="21" selection-start="9229" selection-end="9229" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,29 +186,36 @@
       <file leaf-file-name="struts-login.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-login.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="48" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
+            <state line="18" column="53" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AjaxAction.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AjaxAction.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/AjaxAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="72" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="46" column="7" selection-start="970" selection-end="970" vertical-scroll-proportion="0.29960316">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultActionInvocation.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.16.1/xwork-core-2.3.16.1.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="31" selection-start="4076" selection-end="4076" vertical-scroll-proportion="-3.24">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -222,12 +238,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zker/service/user/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zker/action/user/UserAction.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-action.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zker/common/util/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zker/common/util/SpringContextUtils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-login.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zker/action/AjaxAction.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-login.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/picser/login/register.jsp" />
       </list>
     </option>
@@ -339,28 +355,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="PictureFriend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PictureFriend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.apache.struts:struts2-json-plugin:2.3.16.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struts2-json-plugin-2.3.16.1.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -998,14 +992,14 @@
     <configuration default="false" name="register.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 6.0">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/picser/login/register.jsp" />
       <deployment>
-        <artifact name="PictureFriend:war exploded">
+        <artifact name="PictureFriend:Web exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="register_jsp_PictureFriend_2" />
+        <option name="BASE_DIRECTORY_NAME" value="register_jsp_PictureFriend_5" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -1013,27 +1007,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="12525" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -1051,7 +1025,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="PictureFriend:war exploded" />
+          <artifact name="PictureFriend:Web exploded" />
         </option>
       </method>
     </configuration>
@@ -1263,10 +1237,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Tomcat Server.register.jsp" />
-        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
-        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
-        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
-        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.register.jsp" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.register.jsp" />
+        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.register.jsp" />
+        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.register.jsp" />
+        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1321,14 +1295,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46254683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1351,6 +1324,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1421,62 +1395,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-job.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="242" selection-end="242" vertical-scroll-proportion="0.40083507">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/dao/user/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="77" selection-start="1552" selection-end="1561" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.16.1/struts2-core-2.3.16.1.jar!/org/apache/struts2/interceptor/DeprecationInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="519" selection-end="519" vertical-scroll-proportion="-2.56">
-          <folding />
-        </state>
+        <state line="13" column="28" selection-start="519" selection-end="519" vertical-scroll-proportion="-2.56" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.16.1/struts2-core-2.3.16.1.jar!/org/apache/struts2/interceptor/debugging/DebuggingInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="28" selection-start="2077" selection-end="2077" vertical-scroll-proportion="-2.56">
-          <folding />
-        </state>
+        <state line="38" column="28" selection-start="2077" selection-end="2077" vertical-scroll-proportion="-2.56" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.16.1/xwork-core-2.3.16.1.jar!/com/opensymphony/xwork2/interceptor/MethodFilterInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="40" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.4852071">
-          <folding />
-        </state>
+        <state line="25" column="40" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.4852071" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.16.1/xwork-core-2.3.16.1.jar!/com/opensymphony/xwork2/interceptor/DefaultWorkflowInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="719" selection-end="719" vertical-scroll-proportion="0.3298969">
-          <folding />
-        </state>
+        <state line="16" column="31" selection-start="719" selection-end="719" vertical-scroll-proportion="0.3298969" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/common/util/SpringContextUtils.java">
@@ -1495,39 +1431,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.16.1/xwork-core-2.3.16.1.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="31" selection-start="4076" selection-end="4076" vertical-scroll-proportion="-3.24">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20160810/json-20160810.jar!/org/json/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="35" selection-start="7653" selection-end="7653" vertical-scroll-proportion="0.369863">
+        <state line="152" column="35" selection-start="7653" selection-end="7653" vertical-scroll-proportion="0.369863" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.3.16.1/xwork-core-2.3.16.1.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="31" selection-start="4076" selection-end="4076" vertical-scroll-proportion="0.55364805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-user.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="53" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.20634921">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/AjaxAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-job.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="72" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="11" column="52" selection-start="757" selection-end="757" vertical-scroll-proportion="0.35918367">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-login.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="48" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/login/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="40" selection-start="3723" selection-end="3723" vertical-scroll-proportion="-31.36">
+        <state line="112" column="40" selection-start="3723" selection-end="3723" vertical-scroll-proportion="-16.0">
           <folding>
             <marker date="1480147998000" expanded="true" signature="4736:4759" placeholder="{...}" />
           </folding>
@@ -1536,10 +1482,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/login/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2568" selection-end="2568" vertical-scroll-proportion="0.20041753">
+        <state line="85" column="0" selection-start="3155" selection-end="3155" vertical-scroll-proportion="-12.16">
           <folding>
-            <marker date="1485076221264" expanded="true" signature="4001:4024" placeholder="{...}" />
+            <marker date="1485139486811" expanded="true" signature="4127:4150" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="315" column="21" selection-start="9229" selection-end="9229" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="53" selection-start="1091" selection-end="1091" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/AjaxAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="7" selection-start="970" selection-end="970" vertical-scroll-proportion="0.29960316">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1550,9 +1517,9 @@
         <settings>
           <artifact-editor>
             <show-content>
+              <type id="artifact" />
               <type id="javaee-facet-resources" />
               <type id="jpa-descriptors" />
-              <type id="artifact" />
               <type id="library" />
             </show-content>
           </artifact-editor>

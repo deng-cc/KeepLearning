@@ -308,7 +308,7 @@
         </dependency>
         <!---->
 
-        <!--struts + ajax-->
+        <!--struts + ajax //tips struts 整合 ajax-->
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-json-plugin</artifactId>
