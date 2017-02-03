@@ -52,6 +52,11 @@
         <property name="jobDao" ref="jobDao" />
     </bean>
 
+    <!--主页模块 业务层配置-->
+    <bean id="mainService" class="com.zker.service.main.MainServiceImpl">
+        <property name="mainDao" ref="mainDao" />
+    </bean>
+
     <!--Spring中bean获取的工具类-->
     <bean id="springContextUtils" class="com.zker.common.util.SpringContextUtils" />
 </beans>

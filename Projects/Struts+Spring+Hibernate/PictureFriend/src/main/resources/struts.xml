@@ -25,4 +25,5 @@
     <include file="com/zker/config/struts/struts-login.xml"></include>
     <include file="com/zker/config/struts/struts-job.xml"></include>
     <include file="com/zker/config/struts/struts-user.xml"></include>
+    <include file="com/zker/config/struts/struts-main.xml"></include>
 </struts>

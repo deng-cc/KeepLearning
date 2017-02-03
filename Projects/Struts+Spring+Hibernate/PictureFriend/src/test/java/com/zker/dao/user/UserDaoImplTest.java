@@ -16,7 +16,6 @@ import static org.junit.Assert.*;
 public class UserDaoImplTest {
 
     ApplicationContext applicationContext;
-    String config;
     UserDao userDao;
 
     @Before
@@ -28,7 +27,6 @@ public class UserDaoImplTest {
     @After
     public void tearDown() throws Exception {
         applicationContext = null;
-        config = null;
         userDao = null;
     }
 

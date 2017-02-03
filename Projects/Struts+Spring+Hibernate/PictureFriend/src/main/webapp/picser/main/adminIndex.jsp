@@ -20,11 +20,10 @@
         document.getElementById("mainframe").src='<%=basePath%>picser/main/main.jsp';
     }
     function userManage() {
-            window.mainframe.location.href="userList.jsp";
             window.mainframe.location.href="<%=basePath%>user/userAction!findByPage?page=1";
     }
 	function mainImage() {
-		window.mainframe.location.href="mainImage.html";
+		window.mainframe.location.href="<%=basePath%>main/mainAction!findAllMain";
 	}
 	function jobManage() {
 		window.mainframe.location.href="<%=basePath%>job/jobAction!findAll";
@@ -41,12 +40,6 @@
    	  		
         	<ul class="fn-clear">
                 <li><a href="###" onclick="showMain()">首页</a></li>
-                <!--
-                <li><a href='##' onclick='showProductBySort()'>原创</a></li>
-                <li><a href='##' onclick='showProductBySort()'>素材</a></li>
-                <li><a href='##' onclick='showProductBySort()'>转载</a></li>
-                <li><a href='##' onclick='showProductBySort()'>欣赏</a></li>
-                -->
 
                 <s:iterator value="#session.productSorts"> <!--//@todo ongl表达式undone -->
                     <li><a href='##' onclick='showProductBySort()'><s:property value="sortName" /> </a> </li>

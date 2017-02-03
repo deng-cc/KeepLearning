@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE struts PUBLIC
-        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
-        "http://struts.apache.org/dtds/struts-2.3.dtd">
+        <!DOCTYPE struts PUBLIC
+                "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+                "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
-    <package name="job" namespace="/job" extends="common">
-        <action name="jobAction" class="jobAction" method="findAll"> <!--//@tips 访问jobAction时默认访问其对应类的findAll函数-->
-            <result name="findAll" type="dispatcher">/picser/job/jobList.jsp</result>
-            <result name="find" type="chain"> <!--//@tips chain相当于重新转到另个Action执行，这里相当于，如果创建职位成功，则执行findAll的Action跳转到jobList.jsp-->
-                <param name="nameSpace">/job</param>
-                <param name="actionName">jobAction</param>
-                <param name="method">findAll</param>
-            </result>
-            <result name="saveInput" type="dispatcher">/picser/job/createJob.jsp</result>
-            <result name="update" type="dispatcher">/picser/job/updateJob.jsp</result>
-            <result name="updateInput" type="dispatcher">/picser/job/updateJob.jsp</result>
-        </action>
-    </package>
+<package name="job" namespace="/job" extends="common">
+    <action name="jobAction" class="jobAction" method="findAll"> <!--//@tips 访问jobAction时默认访问其对应类的findAll函数-->
+        <result name="findAll" type="dispatcher">/picser/job/jobList.jsp</result>
+        <result name="find" type="chain">
+            <!--//@tips chain相当于重新转到另个Action执行，这里相当于，如果创建职位成功，则执行findAll的Action跳转到jobList.jsp-->
+            <param name="nameSpace">/job</param>
+            <param name="actionName">jobAction</param>
+            <param name="method">findAll</param>
+        </result>
+        <result name="saveInput" type="dispatcher">/picser/job/createJob.jsp</result>
+        <result name="update" type="dispatcher">/picser/job/updateJob.jsp</result>
+        <result name="updateInput" type="dispatcher">/picser/job/updateJob.jsp</result>
+    </action>
+</package>
 </struts>

@@ -16,5 +16,5 @@ public class Constant {
     public final static String SESSION_VALIDATE = "validateCode";
 
     /**用户管理页每页显示的信息数量*/
-    public final static int USER_NUMBER_PAGE = 1;
+    public final static int USER_NUMBER_PAGE = 3;
 }

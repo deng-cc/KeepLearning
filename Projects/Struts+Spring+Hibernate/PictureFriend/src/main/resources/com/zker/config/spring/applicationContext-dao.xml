@@ -46,4 +46,8 @@
         <property name="hibernateTemplate" ref="hibernateTemplate" />
     </bean>
 
+    <bean id="mainDao" class="com.zker.dao.main.MainDaoImpl" scope="singleton">
+        <property name="hibernateTemplate" ref="hibernateTemplate" />
+    </bean>
+
 </beans>

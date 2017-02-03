@@ -31,6 +31,12 @@
         <property name="jobService" ref="jobService" />
     </bean>
 
+    <!--主页模块-->
+    <bean id="mainAction" class="com.zker.action.main.MainAction" scope="prototype">
+
+        <property name="mainService" ref="mainService" />
+    </bean>
+
     <!--Ajax Action-->
     <bean id="ajaxAction" class="com.zker.action.AjaxAction" scope="prototype">
 
