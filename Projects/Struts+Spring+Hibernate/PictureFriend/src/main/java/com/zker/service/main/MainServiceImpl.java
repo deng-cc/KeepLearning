@@ -71,4 +71,14 @@ public class MainServiceImpl implements MainService{
         return pSysMain;
     }
 
+    /**
+     * 删除指定的图片
+     * @param sysMain
+     */
+    @Override
+    public void delete(SysMain sysMain) {
+        mainDao.delete(sysMain);
+
+    }
+
 }

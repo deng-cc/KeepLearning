@@ -21,4 +21,10 @@ public interface MainService {
      * @return
      */
     SysMain save(SysMain sysMain, File image, String url);
+
+    /**
+     * 删除指定的图片
+     * @param sysMain
+     */
+    void delete(SysMain sysMain);
 }

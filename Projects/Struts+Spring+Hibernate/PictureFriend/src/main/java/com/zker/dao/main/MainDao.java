@@ -19,4 +19,10 @@ public interface MainDao {
      * @return
      */
     SysMain save(SysMain sysMain);
+
+    /**
+     * 删除指定的图片
+     * @param sysMain
+     */
+    void delete(SysMain sysMain);
 }

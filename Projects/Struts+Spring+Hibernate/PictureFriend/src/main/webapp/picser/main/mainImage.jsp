@@ -21,9 +21,24 @@
         return true;
     }
 
+    function init() {
+        basePath = "<%=basePath%>";
+
+        <%
+        if (request.getAttribute("msg") != null) {
+        %>
+
+        var message = '<s:property value="#request.msg"/>';
+        alert(message);
+
+        <%
+        }
+        %>
+    }
+
 </script>
 
-<body onload="showBigPicture()">
+<body onload="init()">
 	<div class="castleInfo_title" style="text-align: center;">主页图片阅览</div>
 	<div class="doc1180 paddingT20 fn-clear">
 		<!--页面左侧内容-->
@@ -33,51 +48,35 @@
 				<div id="playBox">
 					<div class="pre"></div>
 					<div class="next"></div>
-					<div class="smalltitle">
-						<ul>
-							<li class="thistitle"></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-						</ul>
-					</div>
+                    <div class="smalltitle">
+                        <ul>
+                            <li class="thistitle"></li>
+                            <s:if test="#request.allMain.size()!=0">
+                                <s:iterator begin="1" value="#request.allMain">
+                                    <li></li>
+                                </s:iterator>
+                            </s:if>
+                        </ul>
+                    </div>
 					<ul class="oUlplay">
-						<li><a href="###" target="_blank"><img src='../../common/image/1430657519022zhuye1.jpg'></a></li>
-
-						<li><a href="###" target="_blank"><img src='../../common/image/1430657529632zhuye2.jpg'></a></li>
-
-						<li><a href="###" target="_blank"><img src='../../common/image/1430657537108zhuye3.jpg'></a></li>
-
-						<li><a href="###" target="_blank"><img src='../../common/image/1430657544377zhuye4.jpg'></a></li>
-
-						<li><a href="###" target="_blank"><img src='../../common/image/1430657551978zhuye5.jpg'></a></li>
-
-						<li><a href="###" target="_blank"><img src='../../common/image/1430657559075zhuye6.jpg'></a></li>
+                        <s:iterator value="#request.allMain" var="image">
+                            <li><a href="###" target="_blank">
+                                <img src='<%=basePath%><s:property value="#image.imageUrl" /> '>
+                            </a></li>
+                        </s:iterator>
 					</ul>
 				</div>
 
 			</div>
 
 			<div class="castleInfo_title" style="text-align: center;">主页图片维护</div>
-			<div>
-				<img src='../../common/image/1430657519022zhuye1.jpg'
-					style="height:400px;width: 700px"><br>
-                <a href="###" class="classInfo_ljbm">删除</a>
-			</div>
-
-			<div>
-				<img src='../../common/image/1430657529632zhuye2.jpg'
-					style="height:400px;width: 700px"><br>
-				<a href="###" class="classInfo_ljbm">删除</a>
-			</div>
-
-			<div>
-				<img src='../../common/image/1430657537108zhuye3.jpg'
-					style="height:400px;width: 700px"><br>
-			    <a href="###" class="classInfo_ljbm">删除</a>
-			</div>
+            <s:iterator value="#request.allMain" var="image">
+            <div>
+                <img src='<%=basePath%><s:property value="#image.imageUrl"/>'
+                     style="height:400px;width: 700px"><br>
+                <a href="<%=basePath%>main/mainAction!deleteMain?sysMain.mainId=<s:property value='#image.mainId' />" class="classInfo_ljbm">删除</a>
+            </div>
+            </s:iterator>
 
 			<div style="margin-top: 100px">
                 <s:form namespace="/main" action="mainAction" enctype="multipart/form-data" onsubmit="return check()">
@@ -85,7 +84,6 @@
                     <s:submit method="save" value="提交" />
                 </s:form>
 			</div>
-
 
 			<div style="margin-top: 100px">
 				<font size="3" color="red">主页图片建议大小为850px X

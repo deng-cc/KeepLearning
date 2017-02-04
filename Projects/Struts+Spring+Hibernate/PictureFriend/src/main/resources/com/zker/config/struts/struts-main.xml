@@ -5,8 +5,14 @@
 <struts>
 <package name="main" namespace="/main" extends="common">
     <action name="mainAction" class="mainAction">
+
         <result name="findAllMain" type="dispatcher">/picser/main/mainImage.jsp</result>
         <result name="save" type="chain">
+            <param name="nameSpace">/main</param>
+            <param name="actionName">mainAction</param>
+            <param name="method">findAllMain</param>
+        </result>
+        <result name="delete" type="chain">
             <param name="nameSpace">/main</param>
             <param name="actionName">mainAction</param>
             <param name="method">findAllMain</param>

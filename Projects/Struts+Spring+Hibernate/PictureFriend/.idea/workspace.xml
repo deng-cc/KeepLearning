@@ -3,16 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="5e5299b3-4370-455e-bea1-601ec48070c2" name="Default" comment="">
       <change type="DELETED" beforePath="C:\workspace\git\KeepLearning\Projects\Struts+Spring+Hibernate\PictureFriend\src\main\webapp\picser\mainImage.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zker/common/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/com/zker/common/Constant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_0_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/picser/main/adminIndex.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/picser/main/adminIndex.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../SpringMVC+MyBatis/BookStore/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../SpringMVC+MyBatis/BookStore/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-action.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-action.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/picser/main/adminIndex.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/picser/main/adminIndex.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_0_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../SpringMVC+MyBatis/BookStore/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../SpringMVC+MyBatis/BookStore/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-job.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-job.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zker/common/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/com/zker/common/Constant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-action.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-action.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-service.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-service.xml" />
     </list>
     <ignored path="PictureFriend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,15 +41,15 @@
     <file path="/applicationContext-action.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485163958396" ignored="false" />
     <file path="/Message.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485067458985" ignored="false" />
     <file path="/applicationContext-service.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486089963952" ignored="false" />
-    <file path="/mainImage.jsp" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486090508941" ignored="false" />
-    <file path="/struts-main.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486091591629" ignored="false" />
-    <file path="/struts.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485161957241" ignored="false" />
-    <file path="/MainAction.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486100293313" ignored="false" />
-    <file path="/MainDaoImpl.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486091911689" ignored="false" />
-    <file path="/MainServiceImpl.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486092309269" ignored="false" />
-    <file path="/MainService.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486087783471" ignored="false" />
+    <file path="/mainImage.jsp" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486177950281" ignored="false" />
+    <file path="/struts-main.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486175546198" ignored="false" />
+    <file path="/struts.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486178640118" ignored="false" />
+    <file path="/MainAction.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486179444413" ignored="false" />
+    <file path="/MainDaoImpl.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486176105838" ignored="false" />
+    <file path="/MainServiceImpl.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486176076356" ignored="false" />
+    <file path="/MainService.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486176067401" ignored="false" />
     <file path="/Dummy.txt" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1485312380589" ignored="false" />
-    <file path="/MainDao.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486091797610" ignored="false" />
+    <file path="/MainDao.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486176090818" ignored="false" />
     <file path="/MainDaoImplTest.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486089870487" ignored="false" />
     <file path="/applicationContext-dao.xml" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486089786590" ignored="false" />
     <file path="/MainServiceImplTest.java" changelist="5e5299b3-4370-455e-bea1-601ec48070c2" time="1486090405532" ignored="false" />
@@ -809,21 +809,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/zker/action/main/MainAction.java" line="74" class="com.zker.action.main.MainAction" package="com.zker.action.main">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
     </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
@@ -835,58 +820,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/main/MainAction.java">
+      <file leaf-file-name="MainServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/service/main/MainServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="22" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0">
+            <state line="79" column="0" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/user/UserAction.java">
+      <file leaf-file-name="MainDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/dao/main/MainDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="30" selection-start="5402" selection-end="5402" vertical-scroll-proportion="0.0">
+            <state line="24" column="21" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userDetail.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/user/userDetail.jsp">
+      <file leaf-file-name="SysMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/model/main/SysMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="0" selection-start="6371" selection-end="6371" vertical-scroll-proportion="-6.2">
+            <state line="10" column="13" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/service/main/MainService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="21" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts-main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="51" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/login/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="27" selection-start="2762" selection-end="2762" vertical-scroll-proportion="-2.16">
               <folding>
-                <marker date="1484899447706" expanded="true" signature="6804:6826" placeholder="{...}" />
-                <marker date="1484899447706" expanded="true" signature="6896:6918" placeholder="{...}" />
+                <marker date="1480147998000" expanded="true" signature="4736:4759" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-action.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-action.xml">
+      <file leaf-file-name="MainAction.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/main/MainAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1662" selection-end="1662" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainServiceImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/service/main/MainServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="28" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.6993737">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/dao/main/MainDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="19" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+            <state line="89" column="69" selection-start="2197" selection-end="2197" vertical-scroll-proportion="0.20041753">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -897,27 +890,7 @@
       <file leaf-file-name="mainImage.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/main/mainImage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="18" selection-start="2888" selection-end="2888" vertical-scroll-proportion="-8.32">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/login/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="35" selection-start="220" selection-end="220" vertical-scroll-proportion="-5.12">
-              <folding>
-                <marker date="1480147998000" expanded="true" signature="4736:4759" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JobAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/job/JobAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="26" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
+            <state line="85" column="18" selection-start="2982" selection-end="2982" vertical-scroll-proportion="-7.92">
               <folding />
             </state>
           </provider>
@@ -941,22 +914,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zker/service/main/MainService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/picser/main/adminIndex.jsp" />
         <option value="$PROJECT_DIR$/src/test/java/com/zker/dao/user/UserDaoImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/zker/dao/main/MainDaoImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/zker/service/main/MainServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/picser/main/mainImage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-main.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zker/dao/main/MainDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zker/dao/main/MainDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zker/service/main/MainServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-job.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-action.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zker/action/main/MainAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zker/action/user/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zker/service/main/MainService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zker/service/main/MainServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zker/dao/main/MainDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zker/dao/main/MainDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/picser/main/mainImage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-main.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zker/action/main/MainAction.java" />
       </list>
     </option>
   </component>
@@ -1059,6 +1032,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -1360,6 +1334,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PictureFriend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PictureFriend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="picser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1443,40 +1447,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PictureFriend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PictureFriend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1972,18 +1942,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.1.0.RELEASE/spring-beans-4.1.0.RELEASE-sources.jar!/" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -1999,8 +1968,8 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -2163,14 +2132,14 @@
     <configuration default="false" name="login.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 6.0">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/picser/login/login.jsp" />
       <deployment>
-        <artifact name="PictureFriend:war">
+        <artifact name="PictureFriend:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="login_jsp_PictureFriend_110" />
+        <option name="BASE_DIRECTORY_NAME" value="login_jsp_PictureFriend_114" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -2179,7 +2148,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="13688" />
+        <option name="DEBUG_PORT" value="9160" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -2200,7 +2169,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="PictureFriend:war" />
+          <artifact name="PictureFriend:war exploded" />
         </option>
       </method>
     </configuration>
@@ -2240,19 +2209,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -2279,6 +2235,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2470,8 +2439,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -2577,87 +2546,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/dao/main/MainDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="261" selection-end="261" vertical-scroll-proportion="0.5678497">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/model/main/SysMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="227" selection-end="227" vertical-scroll-proportion="0.2651357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.2/commons-io-2.2.jar!/org/apache/commons/io/FileUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="164" selection-end="173" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-job.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="48" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/main/mainImage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="18" selection-start="2888" selection-end="2888" vertical-scroll-proportion="-8.32">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/job/JobAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="26" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="21" selection-start="2698" selection-end="2698" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/spring/applicationContext-action.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1662" selection-end="1662" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/login/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="220" selection-end="220" vertical-scroll-proportion="-5.12">
-          <folding>
-            <marker date="1480147998000" expanded="true" signature="4736:4759" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/user/userDetail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="0" selection-start="6371" selection-end="6371" vertical-scroll-proportion="-6.2">
-          <folding>
-            <marker date="1484899447706" expanded="true" signature="6804:6826" placeholder="{...}" />
-            <marker date="1484899447706" expanded="true" signature="6896:6918" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2668,22 +2560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/main/MainAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="22" selection-start="2070" selection-end="2070" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/dao/main/MainDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.2/commons-io-2.2-sources.jar!/org/apache/commons/io/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="963" column="34" selection-start="38466" selection-end="38466" vertical-scroll-proportion="0.4321503">
@@ -2691,10 +2567,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/user/userDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="0" selection-start="6371" selection-end="6371" vertical-scroll-proportion="-0.64">
+          <folding>
+            <marker date="1484899447706" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1484899447706" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/main/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/user/userList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="61.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/service/main/MainService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="21" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/service/main/MainServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="28" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.6993737">
+        <state line="79" column="0" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/dao/main/MainDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="758" selection-end="758" vertical-scroll-proportion="0.6993737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/dao/main/MainDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/model/main/SysMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/main/mainImage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="18" selection-start="2982" selection-end="2982" vertical-scroll-proportion="-7.92">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.66597074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="51" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/login/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="27" selection-start="2762" selection-end="2762" vertical-scroll-proportion="-2.16">
+          <folding>
+            <marker date="1480147998000" expanded="true" signature="4736:4759" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/main/MainAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="69" selection-start="2197" selection-end="2197" vertical-scroll-proportion="0.20041753">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

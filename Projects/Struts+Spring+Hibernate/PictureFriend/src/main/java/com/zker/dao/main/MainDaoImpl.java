@@ -29,4 +29,13 @@ public class MainDaoImpl extends BaseDao implements MainDao {
         sysMain.setMainId(id);
         return sysMain;
     }
+
+    /**
+     * 删除指定的图片
+     * @param sysMain
+     */
+    @Override
+    public void delete(SysMain sysMain) {
+        getHibernateTemplate().delete(sysMain);
+    }
 }
