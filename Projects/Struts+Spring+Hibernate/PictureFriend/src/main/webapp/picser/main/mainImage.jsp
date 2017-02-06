@@ -87,7 +87,7 @@
 
 			<div style="margin-top: 100px">
 				<font size="3" color="red">主页图片建议大小为850px X
-					330px，大小不能超过2m、图片格式为jpg、png格式</font>
+					330px，大小不能超过1m、图片格式为jpg、png格式</font>
 			</div>
 		</div>
 	</div>

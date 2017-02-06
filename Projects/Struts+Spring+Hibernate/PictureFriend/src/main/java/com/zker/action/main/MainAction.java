@@ -86,11 +86,15 @@ public class MainAction extends BaseAction implements ServletContextAware{
         sa.setImageName(imageFileName);
         String path = servletContext.getRealPath("/upload/main/");
         String extension = imageFileName.substring(imageFileName.lastIndexOf("."));
+
+        /*
         //todo 暂且使用该方式来判断图片后缀和类型，后续应修改为struts的拦截器方式
         if ( (!extension.equals(".png")) && (!extension.equals(".jpg")) ) {
             getRequest().put("msg", "要求图片格式为jpg、png格式！");
             return "save";
         }
+        */
+
         //修改图片名，防止管理员两次提交同名文件
         String imageName = getCurDate().getTime() + extension;
         //保存到数据库中的路径
@@ -120,5 +124,16 @@ public class MainAction extends BaseAction implements ServletContextAware{
         mainService.delete(this.sysMain);
         getRequest().put("msg", "图片删除成功！");
         return "delete";
+    }
+
+    /**
+     * 当上传图片格式不符要求时，调用该方法
+     * @return
+     */
+    public String input() {
+        getRequest().put("msg", "上传格式不符合要求！");
+        List<SysMain> lists = mainService.findAllMain();
+        getRequest().put("allMain", lists);
+        return "findAllMain";
     }
 }

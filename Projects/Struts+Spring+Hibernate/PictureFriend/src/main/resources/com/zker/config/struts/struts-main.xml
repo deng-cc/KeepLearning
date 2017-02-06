@@ -6,6 +6,20 @@
 <package name="main" namespace="/main" extends="common">
     <action name="mainAction" class="mainAction">
 
+        <result name="input" type="chain">
+            <param name="nameSpace">/main</param>
+            <param name="actionName">mainAction</param>
+            <param name="method">input</param>
+        </result>
+
+        <interceptor-ref name="defaultStack">
+            <!--限制上传图片的格式为jpg/png-->
+            <param name="fileUpload.allowedExtensions">.jpg,.png</param>
+            <!--限制上传图片的大小最大为1M-->
+            <param name="fileUpload.maximumSize">1024</param>
+
+        </interceptor-ref>
+
         <result name="findAllMain" type="dispatcher">/picser/main/mainImage.jsp</result>
         <result name="save" type="chain">
             <param name="nameSpace">/main</param>
