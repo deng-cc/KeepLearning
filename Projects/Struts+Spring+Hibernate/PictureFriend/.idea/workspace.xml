@@ -820,10 +820,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="struts-main.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="struts-main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+            <state line="18" column="56" selection-start="795" selection-end="795" vertical-scroll-proportion="1.2849741">
               <folding />
             </state>
           </provider>
@@ -867,10 +867,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainImage.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mainImage.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/main/mainImage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="0" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.2651357">
+            <state line="83" column="51" selection-start="2940" selection-end="2940" vertical-scroll-proportion="-7.64">
               <folding />
             </state>
           </provider>
@@ -908,8 +908,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zker/dao/main/MainDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zker/action/main/MainAction.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-main.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/picser/main/mainImage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-main.xml" />
       </list>
     </option>
   </component>
@@ -1855,48 +1855,7 @@
       <recent name="C:\workspace\git\KeepLearning\Projects\Struts+Spring+Hibernate\PictureFriend\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.login.jsp">
-    <configuration default="false" name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 6.0">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/picser/main/index.jsp" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
-      <deployment>
-        <artifact name="PictureFriend:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_PictureFriend_7" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="PictureFriend:war" />
-        </option>
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.mainImage.jsp">
     <configuration default="false" name="MainDaoImplTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -2002,6 +1961,46 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="login_jsp_PictureFriend_115" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="PictureFriend:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="mainImage.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 6.0">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/picser/main/mainImage.jsp" />
+      <deployment>
+        <artifact name="PictureFriend:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="mainImage_jsp_PictureFriend" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -2230,15 +2229,15 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MainDaoImplTest.testFindAll" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MainDaoImplTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MainServiceImplTest.testFindAllMain" />
-      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MainDaoImplTest.testFindAll" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MainDaoImplTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MainServiceImplTest.testFindAllMain" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.mainImage.jsp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.mainImage.jsp" />
         <item index="1" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
         <item index="2" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
         <item index="3" class="java.lang.String" itemvalue="Tomcat Server.login.jsp" />
@@ -2297,7 +2296,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2321,7 +2320,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.417603" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771537" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24269481" sideWeight="0.417603" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.582397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.582397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="110" y="96" width="1096" height="496" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2472,30 +2471,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zker/action/main/MainAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="129" column="25" selection-start="3140" selection-end="3140" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.16.1/struts2-core-2.3.16.1.jar!/struts-default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="333" column="0" selection-start="24700" selection-end="24700" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -2511,7 +2489,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/picser/main/mainImage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="2665" selection-end="2665" vertical-scroll-proportion="0.2651357">
+        <state line="83" column="51" selection-start="2940" selection-end="2940" vertical-scroll-proportion="-7.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.3.16.1/struts2-core-2.3.16.1.jar!/struts-default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="333" column="0" selection-start="24700" selection-end="24700" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/zker/config/struts/struts-main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="56" selection-start="795" selection-end="795" vertical-scroll-proportion="1.2849741">
           <folding />
         </state>
       </provider>

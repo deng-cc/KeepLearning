@@ -16,7 +16,7 @@
             <!--限制上传图片的格式为jpg/png-->
             <param name="fileUpload.allowedExtensions">.jpg,.png</param>
             <!--限制上传图片的大小最大为1M-->
-            <param name="fileUpload.maximumSize">1024</param>
+            <param name="fileUpload.maximumSize">1048576</param>
 
         </interceptor-ref>
 
