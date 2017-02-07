@@ -50,7 +50,7 @@ public class AjaxAction extends ActionSupport {
      */
     public String ajaxRegister() throws IOException {
         //tips 如何手动取出容器中的bean?答案如下
-        UserDao userDao = (UserDao)SpringContextUtils.context.getBean("userDao");
+        UserDao userDao = (UserDao)SpringContextUtils.getContext().getBean("userDao");
         if (userDao.findAdminByLoginName(loginName) != null
                 || userDao.findUserByLoginName(loginName) != null) {
             message.setMsg("用户名已存在");
