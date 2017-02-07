@@ -19,6 +19,9 @@ public class AjaxAction extends ActionSupport {
     /**用来返回用于js接收*/
     String result;
 
+    /**用户的持久化操作类*/
+    UserDao userDao;
+
     //tips 要有getter&setter，否则$post的param参数传递不过来
     public String getLoginName() {
         return loginName;
@@ -44,13 +47,21 @@ public class AjaxAction extends ActionSupport {
         this.result = result;
     }
 
+    public UserDao getUserDao() {
+        return userDao;
+    }
+
+    public void setUserDao(UserDao userDao) {
+        this.userDao = userDao;
+    }
+
     /**
      * 利用Ajax实现注册的用户名重复性校验
      * @return
      */
     public String ajaxRegister() throws IOException {
         //tips 如何手动取出容器中的bean?答案如下
-        UserDao userDao = (UserDao)SpringContextUtils.getContext().getBean("userDao");
+        //UserDao userDao = (UserDao)SpringContextUtils.getContext().getBean("userDao"); //采用非Spring注入时，采用手动取bean
         if (userDao.findAdminByLoginName(loginName) != null
                 || userDao.findUserByLoginName(loginName) != null) {
             message.setMsg("用户名已存在");
