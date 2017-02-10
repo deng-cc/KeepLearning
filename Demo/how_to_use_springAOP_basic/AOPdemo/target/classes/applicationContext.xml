@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <aop:config>
+        <!--配置AOP切入点，expression为切入点表达式，代表哪些切入点程序执行时被插入切面程序-->
+        <aop:pointcut id="targetPintCut" expression="execution(* com.zker.aop.bean.Target.save(*))" />
+
+        <!--配置切面：ref 切面对象，这里的testBefore是之前spring中配置好的bean的id-->
+        <aop:aspect ref="testBefore">
+            <!--设置通知为前置，method为切面的方法，pointcut-ref为指定通知作用在哪些切入点上-->
+            <aop:before method="doBefore" pointcut-ref="targetPintCut" />
+        </aop:aspect>
+    </aop:config>
+
+    <bean id="target" class="com.zker.aop.bean.Target"></bean>
+
+    <bean id="testBefore" class="com.zker.aop.aspect.TestBefore"></bean>
+
+</beans>
