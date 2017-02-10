@@ -19,10 +19,19 @@
             <!--设置通知为前置，method为切面的方法，pointcut-ref为指定通知作用在哪些切入点上-->
             <aop:before method="doBefore" pointcut-ref="targetPintCut" />
         </aop:aspect>
+
+        <aop:aspect ref="testAfter">
+            <aop:after method="doAfterNoParam" pointcut-ref="targetPintCut" />
+
+            <!--设置通知为后置-->
+            <aop:after-returning method="doAfter" pointcut-ref="targetPintCut" returning="obj" />
+        </aop:aspect>
     </aop:config>
 
     <bean id="target" class="com.zker.aop.bean.Target"></bean>
 
     <bean id="testBefore" class="com.zker.aop.aspect.TestBefore"></bean>
+
+    <bean id="testAfter" class="com.zker.aop.aspect.TestAfter"></bean>
 
 </beans>

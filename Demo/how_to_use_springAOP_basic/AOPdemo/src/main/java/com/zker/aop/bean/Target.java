@@ -10,7 +10,10 @@ public class Target {
      * @return
      */
     public String save(String name) {
-        System.out.println("开始执行目标函数");
+        System.out.println("------------------------");
+        System.out.println("执行目标函数");
+        //System.out.println("异常出现：" + 10/0); //抛出异常的情况
+        System.out.println("------------------------");
         return "保存成功";
     }
 
