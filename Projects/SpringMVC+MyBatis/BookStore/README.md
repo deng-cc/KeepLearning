@@ -199,7 +199,8 @@ DispatcherServlet本质来说就是一个Servlet，那么其核心的方法servi
 
 <br>
 关于以上1、2、3点，结合项目中xml代码如下：
-``` stylus
+
+``` vbscript-html
 <!--映射器、适配器，和拦截器-->
     <bean id="handlerMapping" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">
     <!--hint：RequestMappingHandlerMapping，实现了HandlerMapping接口，重要方法HandlerExecutionChain getHandler(HttpServletRequest request)-->
@@ -222,6 +223,9 @@ DispatcherServlet本质来说就是一个Servlet，那么其核心的方法servi
 
     <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"></bean>
 ```
+
+
+
 参考链接：
 - [SpringMVC从入门到精通之第三章][4]
 - [springMVC学习笔记(二)-----注解和非注解入门小程序][5]
